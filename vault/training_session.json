@@ -1,0 +1,4293 @@
+{
+ "session": "Tuesday training, coach watching",
+ "shots": [
+  {
+   "shot": 1,
+   "target": "left-high",
+   "power": 0.45,
+   "outcome": "post",
+   "ball_x": -0.867,
+   "ball_y": 0.893
+  },
+  {
+   "shot": 2,
+   "target": "left-high",
+   "power": 0.59,
+   "outcome": "saved",
+   "ball_x": -0.454,
+   "ball_y": 0.801
+  },
+  {
+   "shot": 3,
+   "target": "left-low",
+   "power": 0.72,
+   "outcome": "goal",
+   "ball_x": -0.426,
+   "ball_y": 0.366
+  },
+  {
+   "shot": 4,
+   "target": "right-high",
+   "power": 0.86,
+   "outcome": "goal",
+   "ball_x": 0.729,
+   "ball_y": 0.825
+  },
+  {
+   "shot": 5,
+   "target": "left-high",
+   "power": 0.93,
+   "outcome": "goal",
+   "ball_x": -0.412,
+   "ball_y": 0.854
+  },
+  {
+   "shot": 6,
+   "target": "left-low",
+   "power": 0.56,
+   "outcome": "saved",
+   "ball_x": -0.448,
+   "ball_y": 0.441
+  },
+  {
+   "shot": 7,
+   "target": "center-low",
+   "power": 0.54,
+   "outcome": "goal",
+   "ball_x": -0.051,
+   "ball_y": 0.303
+  },
+  {
+   "shot": 8,
+   "target": "left-high",
+   "power": 0.61,
+   "outcome": "post",
+   "ball_x": -0.392,
+   "ball_y": 0.643
+  },
+  {
+   "shot": 9,
+   "target": "center-high",
+   "power": 0.62,
+   "outcome": "goal",
+   "ball_x": 0.058,
+   "ball_y": 0.749
+  },
+  {
+   "shot": 10,
+   "target": "right-high",
+   "power": 0.42,
+   "outcome": "goal",
+   "ball_x": 0.378,
+   "ball_y": 0.819
+  },
+  {
+   "shot": 11,
+   "target": "right-low",
+   "power": 0.74,
+   "outcome": "post",
+   "ball_x": 0.567,
+   "ball_y": 0.239
+  },
+  {
+   "shot": 12,
+   "target": "left-low",
+   "power": 0.78,
+   "outcome": "missed",
+   "ball_x": -0.525,
+   "ball_y": 0.201
+  },
+  {
+   "shot": 13,
+   "target": "left-high",
+   "power": 0.5,
+   "outcome": "post",
+   "ball_x": -0.481,
+   "ball_y": 0.63
+  },
+  {
+   "shot": 14,
+   "target": "left-low",
+   "power": 0.62,
+   "outcome": "goal",
+   "ball_x": -0.665,
+   "ball_y": 0.385
+  },
+  {
+   "shot": 15,
+   "target": "left-low",
+   "power": 0.66,
+   "outcome": "post",
+   "ball_x": -0.697,
+   "ball_y": 0.097
+  },
+  {
+   "shot": 16,
+   "target": "right-high",
+   "power": 0.65,
+   "outcome": "goal",
+   "ball_x": 0.873,
+   "ball_y": 0.516
+  },
+  {
+   "shot": 17,
+   "target": "right-low",
+   "power": 0.83,
+   "outcome": "missed",
+   "ball_x": 0.351,
+   "ball_y": 0.392
+  },
+  {
+   "shot": 18,
+   "target": "center-high",
+   "power": 0.61,
+   "outcome": "goal",
+   "ball_x": 0.227,
+   "ball_y": 0.81
+  },
+  {
+   "shot": 19,
+   "target": "right-high",
+   "power": 0.93,
+   "outcome": "goal",
+   "ball_x": 0.708,
+   "ball_y": 0.583
+  },
+  {
+   "shot": 20,
+   "target": "left-low",
+   "power": 0.52,
+   "outcome": "missed",
+   "ball_x": -0.853,
+   "ball_y": 0.281
+  },
+  {
+   "shot": 21,
+   "target": "center-low",
+   "power": 0.54,
+   "outcome": "missed",
+   "ball_x": -0.095,
+   "ball_y": 0.287
+  },
+  {
+   "shot": 22,
+   "target": "center-low",
+   "power": 0.59,
+   "outcome": "post",
+   "ball_x": -0.214,
+   "ball_y": 0.102
+  },
+  {
+   "shot": 23,
+   "target": "right-high",
+   "power": 0.91,
+   "outcome": "goal",
+   "ball_x": 0.467,
+   "ball_y": 0.588
+  },
+  {
+   "shot": 24,
+   "target": "right-low",
+   "power": 0.55,
+   "outcome": "saved",
+   "ball_x": 0.693,
+   "ball_y": 0.284
+  },
+  {
+   "shot": 25,
+   "target": "right-low",
+   "power": 0.85,
+   "outcome": "goal",
+   "ball_x": 0.684,
+   "ball_y": 0.434
+  },
+  {
+   "shot": 26,
+   "target": "right-high",
+   "power": 0.88,
+   "outcome": "goal",
+   "ball_x": 0.588,
+   "ball_y": 0.659
+  },
+  {
+   "shot": 27,
+   "target": "left-low",
+   "power": 0.63,
+   "outcome": "post",
+   "ball_x": -0.915,
+   "ball_y": 0.492
+  },
+  {
+   "shot": 28,
+   "target": "right-high",
+   "power": 0.93,
+   "outcome": "saved",
+   "ball_x": 0.888,
+   "ball_y": 0.866
+  },
+  {
+   "shot": 29,
+   "target": "center-high",
+   "power": 0.56,
+   "outcome": "post",
+   "ball_x": 0.088,
+   "ball_y": 0.903
+  },
+  {
+   "shot": 30,
+   "target": "center-low",
+   "power": 0.44,
+   "outcome": "post",
+   "ball_x": -0.087,
+   "ball_y": 0.102
+  },
+  {
+   "shot": 31,
+   "target": "right-high",
+   "power": 0.61,
+   "outcome": "post",
+   "ball_x": 0.693,
+   "ball_y": 0.775
+  },
+  {
+   "shot": 32,
+   "target": "right-low",
+   "power": 0.89,
+   "outcome": "goal",
+   "ball_x": 0.816,
+   "ball_y": 0.484
+  },
+  {
+   "shot": 33,
+   "target": "right-high",
+   "power": 0.83,
+   "outcome": "saved",
+   "ball_x": 0.682,
+   "ball_y": 0.714
+  },
+  {
+   "shot": 34,
+   "target": "center-low",
+   "power": 0.84,
+   "outcome": "goal",
+   "ball_x": 0.122,
+   "ball_y": 0.103
+  },
+  {
+   "shot": 35,
+   "target": "left-high",
+   "power": 0.5,
+   "outcome": "saved",
+   "ball_x": -0.519,
+   "ball_y": 0.824
+  },
+  {
+   "shot": 36,
+   "target": "left-low",
+   "power": 0.4,
+   "outcome": "goal",
+   "ball_x": -0.549,
+   "ball_y": 0.361
+  },
+  {
+   "shot": 37,
+   "target": "center-high",
+   "power": 0.57,
+   "outcome": "post",
+   "ball_x": -0.128,
+   "ball_y": 0.902
+  },
+  {
+   "shot": 38,
+   "target": "left-high",
+   "power": 0.87,
+   "outcome": "post",
+   "ball_x": -0.475,
+   "ball_y": 0.909
+  },
+  {
+   "shot": 39,
+   "target": "left-low",
+   "power": 0.72,
+   "outcome": "saved",
+   "ball_x": -0.539,
+   "ball_y": 0.364
+  },
+  {
+   "shot": 40,
+   "target": "left-low",
+   "power": 0.6,
+   "outcome": "goal",
+   "ball_x": -0.33,
+   "ball_y": 0.155
+  },
+  {
+   "shot": 41,
+   "target": "right-low",
+   "power": 0.66,
+   "outcome": "goal",
+   "ball_x": 0.793,
+   "ball_y": 0.225
+  },
+  {
+   "shot": 42,
+   "target": "left-high",
+   "power": 0.8,
+   "outcome": "post",
+   "ball_x": -0.915,
+   "ball_y": 0.761
+  },
+  {
+   "shot": 43,
+   "target": "center-high",
+   "power": 0.54,
+   "outcome": "saved",
+   "ball_x": 0.173,
+   "ball_y": 0.662
+  },
+  {
+   "shot": 44,
+   "target": "left-high",
+   "power": 0.54,
+   "outcome": "goal",
+   "ball_x": -0.51,
+   "ball_y": 0.527
+  },
+  {
+   "shot": 45,
+   "target": "center-high",
+   "power": 0.43,
+   "outcome": "saved",
+   "ball_x": -0.025,
+   "ball_y": 0.565
+  },
+  {
+   "shot": 46,
+   "target": "left-low",
+   "power": 0.84,
+   "outcome": "post",
+   "ball_x": -0.39,
+   "ball_y": 0.367
+  },
+  {
+   "shot": 47,
+   "target": "center-low",
+   "power": 0.7,
+   "outcome": "goal",
+   "ball_x": -0.028,
+   "ball_y": 0.317
+  },
+  {
+   "shot": 48,
+   "target": "center-high",
+   "power": 0.92,
+   "outcome": "saved",
+   "ball_x": -0.226,
+   "ball_y": 0.878
+  },
+  {
+   "shot": 49,
+   "target": "left-low",
+   "power": 0.48,
+   "outcome": "saved",
+   "ball_x": -0.866,
+   "ball_y": 0.479
+  },
+  {
+   "shot": 50,
+   "target": "left-high",
+   "power": 0.84,
+   "outcome": "goal",
+   "ball_x": -0.537,
+   "ball_y": 0.786
+  },
+  {
+   "shot": 51,
+   "target": "left-high",
+   "power": 0.84,
+   "outcome": "post",
+   "ball_x": -0.651,
+   "ball_y": 0.634
+  },
+  {
+   "shot": 52,
+   "target": "right-high",
+   "power": 0.73,
+   "outcome": "missed",
+   "ball_x": 0.402,
+   "ball_y": 0.754
+  },
+  {
+   "shot": 53,
+   "target": "left-high",
+   "power": 0.62,
+   "outcome": "saved",
+   "ball_x": -0.834,
+   "ball_y": 0.828
+  },
+  {
+   "shot": 54,
+   "target": "center-high",
+   "power": 0.94,
+   "outcome": "post",
+   "ball_x": 0.171,
+   "ball_y": 0.89
+  },
+  {
+   "shot": 55,
+   "target": "center-high",
+   "power": 0.75,
+   "outcome": "goal",
+   "ball_x": 0.19,
+   "ball_y": 0.776
+  },
+  {
+   "shot": 56,
+   "target": "left-high",
+   "power": 0.5,
+   "outcome": "post",
+   "ball_x": -0.913,
+   "ball_y": 0.896
+  },
+  {
+   "shot": 57,
+   "target": "left-low",
+   "power": 0.92,
+   "outcome": "goal",
+   "ball_x": -0.455,
+   "ball_y": 0.39
+  },
+  {
+   "shot": 58,
+   "target": "right-low",
+   "power": 0.76,
+   "outcome": "missed",
+   "ball_x": 0.605,
+   "ball_y": 0.405
+  },
+  {
+   "shot": 59,
+   "target": "right-low",
+   "power": 0.46,
+   "outcome": "missed",
+   "ball_x": 0.451,
+   "ball_y": 0.41
+  },
+  {
+   "shot": 60,
+   "target": "left-low",
+   "power": 0.56,
+   "outcome": "goal",
+   "ball_x": -0.46,
+   "ball_y": 0.107
+  },
+  {
+   "shot": 61,
+   "target": "center-low",
+   "power": 0.59,
+   "outcome": "goal",
+   "ball_x": 0.047,
+   "ball_y": 0.281
+  },
+  {
+   "shot": 62,
+   "target": "right-low",
+   "power": 0.58,
+   "outcome": "goal",
+   "ball_x": 0.396,
+   "ball_y": 0.367
+  },
+  {
+   "shot": 63,
+   "target": "right-low",
+   "power": 0.58,
+   "outcome": "goal",
+   "ball_x": 0.826,
+   "ball_y": 0.202
+  },
+  {
+   "shot": 64,
+   "target": "right-low",
+   "power": 0.57,
+   "outcome": "goal",
+   "ball_x": 0.449,
+   "ball_y": 0.392
+  },
+  {
+   "shot": 65,
+   "target": "left-high",
+   "power": 0.55,
+   "outcome": "goal",
+   "ball_x": -0.343,
+   "ball_y": 0.695
+  },
+  {
+   "shot": 66,
+   "target": "left-high",
+   "power": 0.77,
+   "outcome": "goal",
+   "ball_x": -0.565,
+   "ball_y": 0.824
+  },
+  {
+   "shot": 67,
+   "target": "left-high",
+   "power": 0.42,
+   "outcome": "missed",
+   "ball_x": -0.655,
+   "ball_y": 0.825
+  },
+  {
+   "shot": 68,
+   "target": "left-high",
+   "power": 0.77,
+   "outcome": "goal",
+   "ball_x": -0.402,
+   "ball_y": 0.646
+  },
+  {
+   "shot": 69,
+   "target": "right-high",
+   "power": 0.41,
+   "outcome": "post",
+   "ball_x": 0.914,
+   "ball_y": 0.505
+  },
+  {
+   "shot": 70,
+   "target": "center-high",
+   "power": 0.47,
+   "outcome": "saved",
+   "ball_x": -0.05,
+   "ball_y": 0.732
+  },
+  {
+   "shot": 71,
+   "target": "center-low",
+   "power": 0.6,
+   "outcome": "post",
+   "ball_x": 0.129,
+   "ball_y": 0.233
+  },
+  {
+   "shot": 72,
+   "target": "right-high",
+   "power": 0.82,
+   "outcome": "post",
+   "ball_x": 0.651,
+   "ball_y": 0.628
+  },
+  {
+   "shot": 73,
+   "target": "right-high",
+   "power": 0.65,
+   "outcome": "goal",
+   "ball_x": 0.342,
+   "ball_y": 0.508
+  },
+  {
+   "shot": 74,
+   "target": "right-high",
+   "power": 0.72,
+   "outcome": "goal",
+   "ball_x": 0.459,
+   "ball_y": 0.532
+  },
+  {
+   "shot": 75,
+   "target": "left-high",
+   "power": 0.87,
+   "outcome": "saved",
+   "ball_x": -0.326,
+   "ball_y": 0.79
+  },
+  {
+   "shot": 76,
+   "target": "right-high",
+   "power": 0.77,
+   "outcome": "goal",
+   "ball_x": 0.543,
+   "ball_y": 0.551
+  },
+  {
+   "shot": 77,
+   "target": "left-high",
+   "power": 0.81,
+   "outcome": "missed",
+   "ball_x": -0.795,
+   "ball_y": 0.758
+  },
+  {
+   "shot": 78,
+   "target": "left-high",
+   "power": 0.63,
+   "outcome": "goal",
+   "ball_x": -0.713,
+   "ball_y": 0.879
+  },
+  {
+   "shot": 79,
+   "target": "right-high",
+   "power": 0.84,
+   "outcome": "goal",
+   "ball_x": 0.565,
+   "ball_y": 0.611
+  },
+  {
+   "shot": 80,
+   "target": "right-low",
+   "power": 0.89,
+   "outcome": "saved",
+   "ball_x": 0.32,
+   "ball_y": 0.269
+  },
+  {
+   "shot": 81,
+   "target": "right-low",
+   "power": 0.73,
+   "outcome": "goal",
+   "ball_x": 0.408,
+   "ball_y": 0.352
+  },
+  {
+   "shot": 82,
+   "target": "right-low",
+   "power": 0.64,
+   "outcome": "post",
+   "ball_x": 0.303,
+   "ball_y": 0.228
+  },
+  {
+   "shot": 83,
+   "target": "left-low",
+   "power": 0.89,
+   "outcome": "saved",
+   "ball_x": -0.344,
+   "ball_y": 0.329
+  },
+  {
+   "shot": 84,
+   "target": "right-low",
+   "power": 0.43,
+   "outcome": "goal",
+   "ball_x": 0.397,
+   "ball_y": 0.225
+  },
+  {
+   "shot": 85,
+   "target": "left-low",
+   "power": 0.87,
+   "outcome": "goal",
+   "ball_x": -0.814,
+   "ball_y": 0.283
+  },
+  {
+   "shot": 86,
+   "target": "right-high",
+   "power": 0.79,
+   "outcome": "goal",
+   "ball_x": 0.714,
+   "ball_y": 0.859
+  },
+  {
+   "shot": 87,
+   "target": "left-high",
+   "power": 0.89,
+   "outcome": "saved",
+   "ball_x": -0.783,
+   "ball_y": 0.502
+  },
+  {
+   "shot": 88,
+   "target": "left-high",
+   "power": 0.5,
+   "outcome": "saved",
+   "ball_x": -0.729,
+   "ball_y": 0.849
+  },
+  {
+   "shot": 89,
+   "target": "left-low",
+   "power": 0.63,
+   "outcome": "goal",
+   "ball_x": -0.578,
+   "ball_y": 0.313
+  },
+  {
+   "shot": 90,
+   "target": "right-low",
+   "power": 0.46,
+   "outcome": "saved",
+   "ball_x": 0.858,
+   "ball_y": 0.366
+  },
+  {
+   "shot": 91,
+   "target": "left-low",
+   "power": 0.92,
+   "outcome": "goal",
+   "ball_x": -0.883,
+   "ball_y": 0.488
+  },
+  {
+   "shot": 92,
+   "target": "left-low",
+   "power": 0.52,
+   "outcome": "post",
+   "ball_x": -0.481,
+   "ball_y": 0.24
+  },
+  {
+   "shot": 93,
+   "target": "center-low",
+   "power": 0.87,
+   "outcome": "goal",
+   "ball_x": 0.169,
+   "ball_y": 0.364
+  },
+  {
+   "shot": 94,
+   "target": "right-high",
+   "power": 0.93,
+   "outcome": "missed",
+   "ball_x": 0.747,
+   "ball_y": 0.525
+  },
+  {
+   "shot": 95,
+   "target": "center-high",
+   "power": 0.43,
+   "outcome": "goal",
+   "ball_x": -0.041,
+   "ball_y": 0.784
+  },
+  {
+   "shot": 96,
+   "target": "right-high",
+   "power": 0.53,
+   "outcome": "goal",
+   "ball_x": 0.592,
+   "ball_y": 0.878
+  },
+  {
+   "shot": 97,
+   "target": "left-low",
+   "power": 0.52,
+   "outcome": "missed",
+   "ball_x": -0.839,
+   "ball_y": 0.447
+  },
+  {
+   "shot": 98,
+   "target": "left-low",
+   "power": 0.77,
+   "outcome": "post",
+   "ball_x": -0.475,
+   "ball_y": 0.371
+  },
+  {
+   "shot": 99,
+   "target": "left-low",
+   "power": 0.61,
+   "outcome": "missed",
+   "ball_x": -0.471,
+   "ball_y": 0.423
+  },
+  {
+   "shot": 100,
+   "target": "right-low",
+   "power": 0.72,
+   "outcome": "post",
+   "ball_x": 0.346,
+   "ball_y": 0.492
+  },
+  {
+   "shot": 101,
+   "target": "right-high",
+   "power": 0.55,
+   "outcome": "post",
+   "ball_x": 0.74,
+   "ball_y": 0.902
+  },
+  {
+   "shot": 102,
+   "target": "center-low",
+   "power": 0.75,
+   "outcome": "goal",
+   "ball_x": -0.016,
+   "ball_y": 0.436
+  },
+  {
+   "shot": 103,
+   "target": "center-high",
+   "power": 0.62,
+   "outcome": "goal",
+   "ball_x": 0.232,
+   "ball_y": 0.513
+  },
+  {
+   "shot": 104,
+   "target": "center-high",
+   "power": 0.89,
+   "outcome": "goal",
+   "ball_x": -0.242,
+   "ball_y": 0.756
+  },
+  {
+   "shot": 105,
+   "target": "right-low",
+   "power": 0.68,
+   "outcome": "goal",
+   "ball_x": 0.489,
+   "ball_y": 0.156
+  },
+  {
+   "shot": 106,
+   "target": "right-high",
+   "power": 0.9,
+   "outcome": "goal",
+   "ball_x": 0.542,
+   "ball_y": 0.628
+  },
+  {
+   "shot": 107,
+   "target": "right-high",
+   "power": 0.52,
+   "outcome": "missed",
+   "ball_x": 0.714,
+   "ball_y": 0.696
+  },
+  {
+   "shot": 108,
+   "target": "left-low",
+   "power": 0.58,
+   "outcome": "goal",
+   "ball_x": -0.878,
+   "ball_y": 0.469
+  },
+  {
+   "shot": 109,
+   "target": "center-high",
+   "power": 0.47,
+   "outcome": "goal",
+   "ball_x": -0.057,
+   "ball_y": 0.615
+  },
+  {
+   "shot": 110,
+   "target": "center-high",
+   "power": 0.67,
+   "outcome": "post",
+   "ball_x": 0.133,
+   "ball_y": 0.772
+  },
+  {
+   "shot": 111,
+   "target": "right-high",
+   "power": 0.82,
+   "outcome": "goal",
+   "ball_x": 0.622,
+   "ball_y": 0.626
+  },
+  {
+   "shot": 112,
+   "target": "center-low",
+   "power": 0.88,
+   "outcome": "saved",
+   "ball_x": 0.084,
+   "ball_y": 0.103
+  },
+  {
+   "shot": 113,
+   "target": "right-high",
+   "power": 0.67,
+   "outcome": "post",
+   "ball_x": 0.562,
+   "ball_y": 0.905
+  },
+  {
+   "shot": 114,
+   "target": "right-low",
+   "power": 0.68,
+   "outcome": "goal",
+   "ball_x": 0.45,
+   "ball_y": 0.438
+  },
+  {
+   "shot": 115,
+   "target": "left-low",
+   "power": 0.72,
+   "outcome": "post",
+   "ball_x": -0.909,
+   "ball_y": 0.099
+  },
+  {
+   "shot": 116,
+   "target": "center-low",
+   "power": 0.47,
+   "outcome": "goal",
+   "ball_x": -0.125,
+   "ball_y": 0.188
+  },
+  {
+   "shot": 117,
+   "target": "left-high",
+   "power": 0.59,
+   "outcome": "goal",
+   "ball_x": -0.872,
+   "ball_y": 0.69
+  },
+  {
+   "shot": 118,
+   "target": "right-low",
+   "power": 0.93,
+   "outcome": "saved",
+   "ball_x": 0.659,
+   "ball_y": 0.439
+  },
+  {
+   "shot": 119,
+   "target": "center-high",
+   "power": 0.86,
+   "outcome": "saved",
+   "ball_x": 0.07,
+   "ball_y": 0.669
+  },
+  {
+   "shot": 120,
+   "target": "right-low",
+   "power": 0.84,
+   "outcome": "goal",
+   "ball_x": 0.323,
+   "ball_y": 0.108
+  },
+  {
+   "shot": 121,
+   "target": "center-high",
+   "power": 0.88,
+   "outcome": "goal",
+   "ball_x": 0.265,
+   "ball_y": 0.639
+  },
+  {
+   "shot": 122,
+   "target": "center-low",
+   "power": 0.55,
+   "outcome": "post",
+   "ball_x": -0.044,
+   "ball_y": 0.092
+  },
+  {
+   "shot": 123,
+   "target": "left-high",
+   "power": 0.67,
+   "outcome": "goal",
+   "ball_x": -0.459,
+   "ball_y": 0.637
+  },
+  {
+   "shot": 124,
+   "target": "left-low",
+   "power": 0.52,
+   "outcome": "goal",
+   "ball_x": -0.337,
+   "ball_y": 0.391
+  },
+  {
+   "shot": 125,
+   "target": "left-high",
+   "power": 0.49,
+   "outcome": "saved",
+   "ball_x": -0.573,
+   "ball_y": 0.602
+  },
+  {
+   "shot": 126,
+   "target": "right-low",
+   "power": 0.89,
+   "outcome": "post",
+   "ball_x": 0.83,
+   "ball_y": 0.108
+  },
+  {
+   "shot": 127,
+   "target": "center-low",
+   "power": 0.93,
+   "outcome": "goal",
+   "ball_x": -0.075,
+   "ball_y": 0.347
+  },
+  {
+   "shot": 128,
+   "target": "center-low",
+   "power": 0.43,
+   "outcome": "missed",
+   "ball_x": 0.256,
+   "ball_y": 0.388
+  },
+  {
+   "shot": 129,
+   "target": "left-high",
+   "power": 0.87,
+   "outcome": "goal",
+   "ball_x": -0.344,
+   "ball_y": 0.507
+  },
+  {
+   "shot": 130,
+   "target": "right-high",
+   "power": 0.82,
+   "outcome": "post",
+   "ball_x": 0.303,
+   "ball_y": 0.76
+  },
+  {
+   "shot": 131,
+   "target": "left-low",
+   "power": 0.56,
+   "outcome": "goal",
+   "ball_x": -0.75,
+   "ball_y": 0.258
+  },
+  {
+   "shot": 132,
+   "target": "center-high",
+   "power": 0.91,
+   "outcome": "post",
+   "ball_x": 0.134,
+   "ball_y": 0.624
+  },
+  {
+   "shot": 133,
+   "target": "left-high",
+   "power": 0.46,
+   "outcome": "post",
+   "ball_x": -1.001,
+   "ball_y": 0.904
+  },
+  {
+   "shot": 134,
+   "target": "left-low",
+   "power": 0.7,
+   "outcome": "saved",
+   "ball_x": -0.635,
+   "ball_y": 0.339
+  },
+  {
+   "shot": 135,
+   "target": "right-low",
+   "power": 0.89,
+   "outcome": "goal",
+   "ball_x": 0.812,
+   "ball_y": 0.307
+  },
+  {
+   "shot": 136,
+   "target": "right-low",
+   "power": 0.79,
+   "outcome": "goal",
+   "ball_x": 0.665,
+   "ball_y": 0.258
+  },
+  {
+   "shot": 137,
+   "target": "left-low",
+   "power": 0.7,
+   "outcome": "goal",
+   "ball_x": -0.604,
+   "ball_y": 0.329
+  },
+  {
+   "shot": 138,
+   "target": "left-low",
+   "power": 0.88,
+   "outcome": "saved",
+   "ball_x": -0.413,
+   "ball_y": 0.269
+  },
+  {
+   "shot": 139,
+   "target": "center-low",
+   "power": 0.83,
+   "outcome": "goal",
+   "ball_x": 0.136,
+   "ball_y": 0.339
+  },
+  {
+   "shot": 140,
+   "target": "left-low",
+   "power": 0.76,
+   "outcome": "saved",
+   "ball_x": -0.365,
+   "ball_y": 0.484
+  },
+  {
+   "shot": 141,
+   "target": "left-high",
+   "power": 0.42,
+   "outcome": "saved",
+   "ball_x": -0.46,
+   "ball_y": 0.88
+  },
+  {
+   "shot": 142,
+   "target": "right-low",
+   "power": 0.56,
+   "outcome": "saved",
+   "ball_x": 0.88,
+   "ball_y": 0.458
+  },
+  {
+   "shot": 143,
+   "target": "center-low",
+   "power": 0.76,
+   "outcome": "goal",
+   "ball_x": -0.213,
+   "ball_y": 0.255
+  },
+  {
+   "shot": 144,
+   "target": "right-high",
+   "power": 0.83,
+   "outcome": "goal",
+   "ball_x": 0.48,
+   "ball_y": 0.892
+  },
+  {
+   "shot": 145,
+   "target": "left-high",
+   "power": 0.45,
+   "outcome": "goal",
+   "ball_x": -0.314,
+   "ball_y": 0.715
+  },
+  {
+   "shot": 146,
+   "target": "right-high",
+   "power": 0.48,
+   "outcome": "missed",
+   "ball_x": 0.609,
+   "ball_y": 0.704
+  },
+  {
+   "shot": 147,
+   "target": "left-low",
+   "power": 0.74,
+   "outcome": "missed",
+   "ball_x": -0.368,
+   "ball_y": 0.146
+  },
+  {
+   "shot": 148,
+   "target": "left-high",
+   "power": 0.48,
+   "outcome": "goal",
+   "ball_x": -0.384,
+   "ball_y": 0.623
+  },
+  {
+   "shot": 149,
+   "target": "right-high",
+   "power": 0.86,
+   "outcome": "post",
+   "ball_x": 0.566,
+   "ball_y": 0.766
+  },
+  {
+   "shot": 150,
+   "target": "left-low",
+   "power": 0.95,
+   "outcome": "goal",
+   "ball_x": -0.355,
+   "ball_y": 0.35
+  },
+  {
+   "shot": 151,
+   "target": "right-high",
+   "power": 0.69,
+   "outcome": "goal",
+   "ball_x": 0.414,
+   "ball_y": 0.541
+  },
+  {
+   "shot": 152,
+   "target": "center-low",
+   "power": 0.58,
+   "outcome": "saved",
+   "ball_x": -0.117,
+   "ball_y": 0.472
+  },
+  {
+   "shot": 153,
+   "target": "right-high",
+   "power": 0.67,
+   "outcome": "goal",
+   "ball_x": 0.862,
+   "ball_y": 0.593
+  },
+  {
+   "shot": 154,
+   "target": "right-low",
+   "power": 0.73,
+   "outcome": "saved",
+   "ball_x": 0.477,
+   "ball_y": 0.271
+  },
+  {
+   "shot": 155,
+   "target": "right-low",
+   "power": 0.92,
+   "outcome": "post",
+   "ball_x": 0.823,
+   "ball_y": 0.494
+  },
+  {
+   "shot": 156,
+   "target": "left-low",
+   "power": 0.58,
+   "outcome": "goal",
+   "ball_x": -0.714,
+   "ball_y": 0.198
+  },
+  {
+   "shot": 157,
+   "target": "center-high",
+   "power": 0.88,
+   "outcome": "goal",
+   "ball_x": -0.016,
+   "ball_y": 0.72
+  },
+  {
+   "shot": 158,
+   "target": "right-high",
+   "power": 0.8,
+   "outcome": "missed",
+   "ball_x": 0.745,
+   "ball_y": 0.694
+  },
+  {
+   "shot": 159,
+   "target": "right-low",
+   "power": 0.85,
+   "outcome": "goal",
+   "ball_x": 0.792,
+   "ball_y": 0.149
+  },
+  {
+   "shot": 160,
+   "target": "center-low",
+   "power": 0.53,
+   "outcome": "goal",
+   "ball_x": 0.029,
+   "ball_y": 0.153
+  },
+  {
+   "shot": 161,
+   "target": "right-low",
+   "power": 0.5,
+   "outcome": "goal",
+   "ball_x": 0.528,
+   "ball_y": 0.397
+  },
+  {
+   "shot": 162,
+   "target": "center-low",
+   "power": 0.8,
+   "outcome": "goal",
+   "ball_x": 0.178,
+   "ball_y": 0.429
+  },
+  {
+   "shot": 163,
+   "target": "center-low",
+   "power": 0.45,
+   "outcome": "goal",
+   "ball_x": 0.145,
+   "ball_y": 0.257
+  },
+  {
+   "shot": 164,
+   "target": "center-low",
+   "power": 0.8,
+   "outcome": "saved",
+   "ball_x": 0.089,
+   "ball_y": 0.105
+  },
+  {
+   "shot": 165,
+   "target": "right-high",
+   "power": 0.84,
+   "outcome": "post",
+   "ball_x": 0.91,
+   "ball_y": 0.901
+  },
+  {
+   "shot": 166,
+   "target": "right-high",
+   "power": 0.66,
+   "outcome": "saved",
+   "ball_x": 0.49,
+   "ball_y": 0.664
+  },
+  {
+   "shot": 167,
+   "target": "right-high",
+   "power": 0.56,
+   "outcome": "goal",
+   "ball_x": 0.481,
+   "ball_y": 0.667
+  },
+  {
+   "shot": 168,
+   "target": "left-high",
+   "power": 0.77,
+   "outcome": "saved",
+   "ball_x": -0.786,
+   "ball_y": 0.604
+  },
+  {
+   "shot": 169,
+   "target": "right-low",
+   "power": 0.51,
+   "outcome": "saved",
+   "ball_x": 0.559,
+   "ball_y": 0.151
+  },
+  {
+   "shot": 170,
+   "target": "left-high",
+   "power": 0.43,
+   "outcome": "saved",
+   "ball_x": -0.396,
+   "ball_y": 0.761
+  },
+  {
+   "shot": 171,
+   "target": "left-low",
+   "power": 0.54,
+   "outcome": "saved",
+   "ball_x": -0.669,
+   "ball_y": 0.386
+  },
+  {
+   "shot": 172,
+   "target": "left-high",
+   "power": 0.82,
+   "outcome": "goal",
+   "ball_x": -0.894,
+   "ball_y": 0.846
+  },
+  {
+   "shot": 173,
+   "target": "center-high",
+   "power": 0.68,
+   "outcome": "post",
+   "ball_x": 0.132,
+   "ball_y": 0.906
+  },
+  {
+   "shot": 174,
+   "target": "right-high",
+   "power": 0.43,
+   "outcome": "goal",
+   "ball_x": 0.455,
+   "ball_y": 0.679
+  },
+  {
+   "shot": 175,
+   "target": "center-low",
+   "power": 0.92,
+   "outcome": "goal",
+   "ball_x": -0.299,
+   "ball_y": 0.174
+  },
+  {
+   "shot": 176,
+   "target": "left-high",
+   "power": 0.82,
+   "outcome": "missed",
+   "ball_x": -0.507,
+   "ball_y": 0.802
+  },
+  {
+   "shot": 177,
+   "target": "left-low",
+   "power": 0.59,
+   "outcome": "goal",
+   "ball_x": -0.438,
+   "ball_y": 0.489
+  },
+  {
+   "shot": 178,
+   "target": "right-low",
+   "power": 0.88,
+   "outcome": "goal",
+   "ball_x": 0.375,
+   "ball_y": 0.428
+  },
+  {
+   "shot": 179,
+   "target": "right-high",
+   "power": 0.73,
+   "outcome": "missed",
+   "ball_x": 0.892,
+   "ball_y": 0.633
+  },
+  {
+   "shot": 180,
+   "target": "right-high",
+   "power": 0.55,
+   "outcome": "missed",
+   "ball_x": 0.366,
+   "ball_y": 0.843
+  },
+  {
+   "shot": 181,
+   "target": "right-high",
+   "power": 0.42,
+   "outcome": "post",
+   "ball_x": 0.565,
+   "ball_y": 0.508
+  },
+  {
+   "shot": 182,
+   "target": "left-low",
+   "power": 0.66,
+   "outcome": "post",
+   "ball_x": -0.735,
+   "ball_y": 0.106
+  },
+  {
+   "shot": 183,
+   "target": "right-high",
+   "power": 0.6,
+   "outcome": "post",
+   "ball_x": 0.477,
+   "ball_y": 0.625
+  },
+  {
+   "shot": 184,
+   "target": "left-low",
+   "power": 0.81,
+   "outcome": "missed",
+   "ball_x": -0.736,
+   "ball_y": 0.125
+  },
+  {
+   "shot": 185,
+   "target": "center-low",
+   "power": 0.62,
+   "outcome": "goal",
+   "ball_x": 0.235,
+   "ball_y": 0.205
+  },
+  {
+   "shot": 186,
+   "target": "left-high",
+   "power": 0.64,
+   "outcome": "goal",
+   "ball_x": -0.808,
+   "ball_y": 0.743
+  },
+  {
+   "shot": 187,
+   "target": "center-low",
+   "power": 0.79,
+   "outcome": "goal",
+   "ball_x": 0.281,
+   "ball_y": 0.481
+  },
+  {
+   "shot": 188,
+   "target": "left-low",
+   "power": 0.71,
+   "outcome": "goal",
+   "ball_x": -0.753,
+   "ball_y": 0.497
+  },
+  {
+   "shot": 189,
+   "target": "right-high",
+   "power": 0.71,
+   "outcome": "post",
+   "ball_x": 0.956,
+   "ball_y": 0.891
+  },
+  {
+   "shot": 190,
+   "target": "center-low",
+   "power": 0.57,
+   "outcome": "saved",
+   "ball_x": -0.143,
+   "ball_y": 0.382
+  },
+  {
+   "shot": 191,
+   "target": "center-low",
+   "power": 0.5,
+   "outcome": "goal",
+   "ball_x": -0.208,
+   "ball_y": 0.111
+  },
+  {
+   "shot": 192,
+   "target": "right-high",
+   "power": 0.85,
+   "outcome": "saved",
+   "ball_x": 0.654,
+   "ball_y": 0.616
+  },
+  {
+   "shot": 193,
+   "target": "right-low",
+   "power": 0.62,
+   "outcome": "post",
+   "ball_x": 0.476,
+   "ball_y": 0.09
+  },
+  {
+   "shot": 194,
+   "target": "right-low",
+   "power": 0.81,
+   "outcome": "post",
+   "ball_x": 1.002,
+   "ball_y": 0.096
+  },
+  {
+   "shot": 195,
+   "target": "center-high",
+   "power": 0.89,
+   "outcome": "goal",
+   "ball_x": 0.076,
+   "ball_y": 0.853
+  },
+  {
+   "shot": 196,
+   "target": "left-high",
+   "power": 0.52,
+   "outcome": "post",
+   "ball_x": -0.608,
+   "ball_y": 0.908
+  },
+  {
+   "shot": 197,
+   "target": "left-low",
+   "power": 0.87,
+   "outcome": "missed",
+   "ball_x": -0.809,
+   "ball_y": 0.491
+  },
+  {
+   "shot": 198,
+   "target": "right-low",
+   "power": 0.44,
+   "outcome": "goal",
+   "ball_x": 0.852,
+   "ball_y": 0.351
+  },
+  {
+   "shot": 199,
+   "target": "center-low",
+   "power": 0.61,
+   "outcome": "goal",
+   "ball_x": 0.207,
+   "ball_y": 0.269
+  },
+  {
+   "shot": 200,
+   "target": "left-low",
+   "power": 0.77,
+   "outcome": "saved",
+   "ball_x": -0.837,
+   "ball_y": 0.103
+  },
+  {
+   "shot": 201,
+   "target": "center-low",
+   "power": 0.45,
+   "outcome": "missed",
+   "ball_x": 0.132,
+   "ball_y": 0.103
+  },
+  {
+   "shot": 202,
+   "target": "center-low",
+   "power": 0.8,
+   "outcome": "goal",
+   "ball_x": 0.186,
+   "ball_y": 0.416
+  },
+  {
+   "shot": 203,
+   "target": "right-low",
+   "power": 0.77,
+   "outcome": "goal",
+   "ball_x": 0.402,
+   "ball_y": 0.318
+  },
+  {
+   "shot": 204,
+   "target": "left-high",
+   "power": 0.81,
+   "outcome": "post",
+   "ball_x": -0.566,
+   "ball_y": 0.908
+  },
+  {
+   "shot": 205,
+   "target": "right-high",
+   "power": 0.49,
+   "outcome": "goal",
+   "ball_x": 0.804,
+   "ball_y": 0.817
+  },
+  {
+   "shot": 206,
+   "target": "center-high",
+   "power": 0.55,
+   "outcome": "goal",
+   "ball_x": -0.225,
+   "ball_y": 0.567
+  },
+  {
+   "shot": 207,
+   "target": "center-high",
+   "power": 0.82,
+   "outcome": "goal",
+   "ball_x": 0.189,
+   "ball_y": 0.898
+  },
+  {
+   "shot": 208,
+   "target": "right-high",
+   "power": 0.87,
+   "outcome": "saved",
+   "ball_x": 0.73,
+   "ball_y": 0.75
+  },
+  {
+   "shot": 209,
+   "target": "left-low",
+   "power": 0.78,
+   "outcome": "post",
+   "ball_x": -0.477,
+   "ball_y": 0.496
+  },
+  {
+   "shot": 210,
+   "target": "left-high",
+   "power": 0.84,
+   "outcome": "goal",
+   "ball_x": -0.719,
+   "ball_y": 0.804
+  },
+  {
+   "shot": 211,
+   "target": "right-low",
+   "power": 0.63,
+   "outcome": "post",
+   "ball_x": 0.566,
+   "ball_y": 0.099
+  },
+  {
+   "shot": 212,
+   "target": "center-low",
+   "power": 0.55,
+   "outcome": "goal",
+   "ball_x": 0.029,
+   "ball_y": 0.244
+  },
+  {
+   "shot": 213,
+   "target": "left-high",
+   "power": 0.73,
+   "outcome": "missed",
+   "ball_x": -0.486,
+   "ball_y": 0.594
+  },
+  {
+   "shot": 214,
+   "target": "center-low",
+   "power": 0.94,
+   "outcome": "saved",
+   "ball_x": 0.072,
+   "ball_y": 0.229
+  },
+  {
+   "shot": 215,
+   "target": "left-high",
+   "power": 0.71,
+   "outcome": "missed",
+   "ball_x": -0.547,
+   "ball_y": 0.609
+  },
+  {
+   "shot": 216,
+   "target": "left-high",
+   "power": 0.55,
+   "outcome": "post",
+   "ball_x": -0.307,
+   "ball_y": 0.898
+  },
+  {
+   "shot": 217,
+   "target": "left-low",
+   "power": 0.75,
+   "outcome": "goal",
+   "ball_x": -0.399,
+   "ball_y": 0.136
+  },
+  {
+   "shot": 218,
+   "target": "center-high",
+   "power": 0.46,
+   "outcome": "missed",
+   "ball_x": 0.047,
+   "ball_y": 0.535
+  },
+  {
+   "shot": 219,
+   "target": "center-high",
+   "power": 0.73,
+   "outcome": "post",
+   "ball_x": 0.047,
+   "ball_y": 0.903
+  },
+  {
+   "shot": 220,
+   "target": "center-high",
+   "power": 0.87,
+   "outcome": "goal",
+   "ball_x": 0.239,
+   "ball_y": 0.702
+  },
+  {
+   "shot": 221,
+   "target": "right-high",
+   "power": 0.62,
+   "outcome": "post",
+   "ball_x": 0.997,
+   "ball_y": 0.642
+  },
+  {
+   "shot": 222,
+   "target": "left-low",
+   "power": 0.93,
+   "outcome": "goal",
+   "ball_x": -0.856,
+   "ball_y": 0.236
+  },
+  {
+   "shot": 223,
+   "target": "right-low",
+   "power": 0.66,
+   "outcome": "goal",
+   "ball_x": 0.574,
+   "ball_y": 0.393
+  },
+  {
+   "shot": 224,
+   "target": "left-high",
+   "power": 0.57,
+   "outcome": "goal",
+   "ball_x": -0.38,
+   "ball_y": 0.662
+  },
+  {
+   "shot": 225,
+   "target": "center-low",
+   "power": 0.6,
+   "outcome": "saved",
+   "ball_x": -0.159,
+   "ball_y": 0.147
+  },
+  {
+   "shot": 226,
+   "target": "left-low",
+   "power": 0.75,
+   "outcome": "goal",
+   "ball_x": -0.864,
+   "ball_y": 0.457
+  },
+  {
+   "shot": 227,
+   "target": "center-low",
+   "power": 0.69,
+   "outcome": "missed",
+   "ball_x": 0.106,
+   "ball_y": 0.239
+  },
+  {
+   "shot": 228,
+   "target": "left-high",
+   "power": 0.53,
+   "outcome": "goal",
+   "ball_x": -0.751,
+   "ball_y": 0.578
+  },
+  {
+   "shot": 229,
+   "target": "left-low",
+   "power": 0.47,
+   "outcome": "saved",
+   "ball_x": -0.478,
+   "ball_y": 0.5
+  },
+  {
+   "shot": 230,
+   "target": "center-low",
+   "power": 0.46,
+   "outcome": "post",
+   "ball_x": -0.132,
+   "ball_y": 0.363
+  },
+  {
+   "shot": 231,
+   "target": "right-high",
+   "power": 0.57,
+   "outcome": "post",
+   "ball_x": 0.823,
+   "ball_y": 0.758
+  },
+  {
+   "shot": 232,
+   "target": "right-high",
+   "power": 0.6,
+   "outcome": "post",
+   "ball_x": 0.999,
+   "ball_y": 0.765
+  },
+  {
+   "shot": 233,
+   "target": "left-low",
+   "power": 0.64,
+   "outcome": "post",
+   "ball_x": -0.478,
+   "ball_y": 0.108
+  },
+  {
+   "shot": 234,
+   "target": "center-high",
+   "power": 0.83,
+   "outcome": "missed",
+   "ball_x": -0.167,
+   "ball_y": 0.637
+  },
+  {
+   "shot": 235,
+   "target": "left-low",
+   "power": 0.77,
+   "outcome": "saved",
+   "ball_x": -0.881,
+   "ball_y": 0.453
+  },
+  {
+   "shot": 236,
+   "target": "center-high",
+   "power": 0.84,
+   "outcome": "goal",
+   "ball_x": 0.292,
+   "ball_y": 0.717
+  },
+  {
+   "shot": 237,
+   "target": "right-low",
+   "power": 0.42,
+   "outcome": "saved",
+   "ball_x": 0.832,
+   "ball_y": 0.385
+  },
+  {
+   "shot": 238,
+   "target": "left-high",
+   "power": 0.62,
+   "outcome": "saved",
+   "ball_x": -0.661,
+   "ball_y": 0.507
+  },
+  {
+   "shot": 239,
+   "target": "right-low",
+   "power": 0.65,
+   "outcome": "goal",
+   "ball_x": 0.54,
+   "ball_y": 0.383
+  },
+  {
+   "shot": 240,
+   "target": "right-high",
+   "power": 0.73,
+   "outcome": "saved",
+   "ball_x": 0.842,
+   "ball_y": 0.772
+  },
+  {
+   "shot": 241,
+   "target": "center-high",
+   "power": 0.72,
+   "outcome": "goal",
+   "ball_x": 0.004,
+   "ball_y": 0.879
+  },
+  {
+   "shot": 242,
+   "target": "center-high",
+   "power": 0.45,
+   "outcome": "saved",
+   "ball_x": 0.004,
+   "ball_y": 0.652
+  },
+  {
+   "shot": 243,
+   "target": "left-high",
+   "power": 0.51,
+   "outcome": "saved",
+   "ball_x": -0.361,
+   "ball_y": 0.654
+  },
+  {
+   "shot": 244,
+   "target": "right-high",
+   "power": 0.85,
+   "outcome": "saved",
+   "ball_x": 0.479,
+   "ball_y": 0.739
+  },
+  {
+   "shot": 245,
+   "target": "left-high",
+   "power": 0.84,
+   "outcome": "goal",
+   "ball_x": -0.653,
+   "ball_y": 0.734
+  },
+  {
+   "shot": 246,
+   "target": "right-low",
+   "power": 0.88,
+   "outcome": "saved",
+   "ball_x": 0.686,
+   "ball_y": 0.491
+  },
+  {
+   "shot": 247,
+   "target": "right-high",
+   "power": 0.86,
+   "outcome": "goal",
+   "ball_x": 0.503,
+   "ball_y": 0.689
+  },
+  {
+   "shot": 248,
+   "target": "center-low",
+   "power": 0.73,
+   "outcome": "saved",
+   "ball_x": 0.068,
+   "ball_y": 0.13
+  },
+  {
+   "shot": 249,
+   "target": "left-high",
+   "power": 0.72,
+   "outcome": "goal",
+   "ball_x": -0.661,
+   "ball_y": 0.562
+  },
+  {
+   "shot": 250,
+   "target": "center-high",
+   "power": 0.84,
+   "outcome": "saved",
+   "ball_x": -0.068,
+   "ball_y": 0.741
+  },
+  {
+   "shot": 251,
+   "target": "center-low",
+   "power": 0.68,
+   "outcome": "goal",
+   "ball_x": -0.002,
+   "ball_y": 0.364
+  },
+  {
+   "shot": 252,
+   "target": "center-low",
+   "power": 0.59,
+   "outcome": "goal",
+   "ball_x": 0.142,
+   "ball_y": 0.421
+  },
+  {
+   "shot": 253,
+   "target": "center-high",
+   "power": 0.41,
+   "outcome": "saved",
+   "ball_x": -0.064,
+   "ball_y": 0.691
+  },
+  {
+   "shot": 254,
+   "target": "left-high",
+   "power": 0.41,
+   "outcome": "goal",
+   "ball_x": -0.332,
+   "ball_y": 0.507
+  },
+  {
+   "shot": 255,
+   "target": "left-low",
+   "power": 0.45,
+   "outcome": "saved",
+   "ball_x": -0.768,
+   "ball_y": 0.223
+  },
+  {
+   "shot": 256,
+   "target": "center-high",
+   "power": 0.65,
+   "outcome": "goal",
+   "ball_x": -0.074,
+   "ball_y": 0.723
+  },
+  {
+   "shot": 257,
+   "target": "right-low",
+   "power": 0.51,
+   "outcome": "post",
+   "ball_x": 0.61,
+   "ball_y": 0.497
+  },
+  {
+   "shot": 258,
+   "target": "left-low",
+   "power": 0.46,
+   "outcome": "post",
+   "ball_x": -0.655,
+   "ball_y": 0.361
+  },
+  {
+   "shot": 259,
+   "target": "left-low",
+   "power": 0.76,
+   "outcome": "goal",
+   "ball_x": -0.526,
+   "ball_y": 0.189
+  },
+  {
+   "shot": 260,
+   "target": "left-high",
+   "power": 0.86,
+   "outcome": "goal",
+   "ball_x": -0.678,
+   "ball_y": 0.769
+  },
+  {
+   "shot": 261,
+   "target": "right-low",
+   "power": 0.92,
+   "outcome": "goal",
+   "ball_x": 0.826,
+   "ball_y": 0.425
+  },
+  {
+   "shot": 262,
+   "target": "right-low",
+   "power": 0.49,
+   "outcome": "post",
+   "ball_x": 0.389,
+   "ball_y": 0.496
+  },
+  {
+   "shot": 263,
+   "target": "right-high",
+   "power": 0.75,
+   "outcome": "saved",
+   "ball_x": 0.846,
+   "ball_y": 0.52
+  },
+  {
+   "shot": 264,
+   "target": "right-low",
+   "power": 0.58,
+   "outcome": "post",
+   "ball_x": 0.999,
+   "ball_y": 0.236
+  },
+  {
+   "shot": 265,
+   "target": "left-low",
+   "power": 0.77,
+   "outcome": "goal",
+   "ball_x": -0.437,
+   "ball_y": 0.219
+  },
+  {
+   "shot": 266,
+   "target": "right-low",
+   "power": 0.8,
+   "outcome": "post",
+   "ball_x": 0.823,
+   "ball_y": 0.37
+  },
+  {
+   "shot": 267,
+   "target": "center-high",
+   "power": 0.84,
+   "outcome": "missed",
+   "ball_x": -0.129,
+   "ball_y": 0.847
+  },
+  {
+   "shot": 268,
+   "target": "left-high",
+   "power": 0.74,
+   "outcome": "saved",
+   "ball_x": -0.696,
+   "ball_y": 0.761
+  },
+  {
+   "shot": 269,
+   "target": "left-low",
+   "power": 0.52,
+   "outcome": "goal",
+   "ball_x": -0.318,
+   "ball_y": 0.289
+  },
+  {
+   "shot": 270,
+   "target": "left-high",
+   "power": 0.8,
+   "outcome": "goal",
+   "ball_x": -0.327,
+   "ball_y": 0.599
+  },
+  {
+   "shot": 271,
+   "target": "right-low",
+   "power": 0.45,
+   "outcome": "goal",
+   "ball_x": 0.807,
+   "ball_y": 0.3
+  },
+  {
+   "shot": 272,
+   "target": "center-low",
+   "power": 0.45,
+   "outcome": "saved",
+   "ball_x": 0.165,
+   "ball_y": 0.251
+  },
+  {
+   "shot": 273,
+   "target": "left-high",
+   "power": 0.67,
+   "outcome": "saved",
+   "ball_x": -0.72,
+   "ball_y": 0.822
+  },
+  {
+   "shot": 274,
+   "target": "center-high",
+   "power": 0.59,
+   "outcome": "saved",
+   "ball_x": -0.09,
+   "ball_y": 0.659
+  },
+  {
+   "shot": 275,
+   "target": "center-low",
+   "power": 0.5,
+   "outcome": "saved",
+   "ball_x": -0.025,
+   "ball_y": 0.362
+  },
+  {
+   "shot": 276,
+   "target": "right-low",
+   "power": 0.46,
+   "outcome": "goal",
+   "ball_x": 0.864,
+   "ball_y": 0.462
+  },
+  {
+   "shot": 277,
+   "target": "left-high",
+   "power": 0.43,
+   "outcome": "saved",
+   "ball_x": -0.384,
+   "ball_y": 0.725
+  },
+  {
+   "shot": 278,
+   "target": "right-high",
+   "power": 0.73,
+   "outcome": "goal",
+   "ball_x": 0.655,
+   "ball_y": 0.524
+  },
+  {
+   "shot": 279,
+   "target": "left-low",
+   "power": 0.5,
+   "outcome": "saved",
+   "ball_x": -0.54,
+   "ball_y": 0.169
+  },
+  {
+   "shot": 280,
+   "target": "right-low",
+   "power": 0.91,
+   "outcome": "post",
+   "ball_x": 0.478,
+   "ball_y": 0.224
+  },
+  {
+   "shot": 281,
+   "target": "left-low",
+   "power": 0.77,
+   "outcome": "post",
+   "ball_x": -0.301,
+   "ball_y": 0.106
+  },
+  {
+   "shot": 282,
+   "target": "left-high",
+   "power": 0.88,
+   "outcome": "goal",
+   "ball_x": -0.578,
+   "ball_y": 0.861
+  },
+  {
+   "shot": 283,
+   "target": "center-low",
+   "power": 0.91,
+   "outcome": "saved",
+   "ball_x": 0.272,
+   "ball_y": 0.242
+  },
+  {
+   "shot": 284,
+   "target": "right-high",
+   "power": 0.63,
+   "outcome": "saved",
+   "ball_x": 0.8,
+   "ball_y": 0.604
+  },
+  {
+   "shot": 285,
+   "target": "center-high",
+   "power": 0.69,
+   "outcome": "goal",
+   "ball_x": -0.237,
+   "ball_y": 0.637
+  },
+  {
+   "shot": 286,
+   "target": "left-high",
+   "power": 0.45,
+   "outcome": "goal",
+   "ball_x": -0.4,
+   "ball_y": 0.552
+  },
+  {
+   "shot": 287,
+   "target": "center-low",
+   "power": 0.89,
+   "outcome": "goal",
+   "ball_x": -0.1,
+   "ball_y": 0.112
+  },
+  {
+   "shot": 288,
+   "target": "left-low",
+   "power": 0.47,
+   "outcome": "missed",
+   "ball_x": -0.537,
+   "ball_y": 0.498
+  },
+  {
+   "shot": 289,
+   "target": "left-high",
+   "power": 0.65,
+   "outcome": "post",
+   "ball_x": -0.347,
+   "ball_y": 0.769
+  },
+  {
+   "shot": 290,
+   "target": "center-high",
+   "power": 0.84,
+   "outcome": "goal",
+   "ball_x": -0.257,
+   "ball_y": 0.761
+  },
+  {
+   "shot": 291,
+   "target": "center-low",
+   "power": 0.63,
+   "outcome": "goal",
+   "ball_x": 0.031,
+   "ball_y": 0.373
+  },
+  {
+   "shot": 292,
+   "target": "center-low",
+   "power": 0.42,
+   "outcome": "goal",
+   "ball_x": 0.0,
+   "ball_y": 0.333
+  },
+  {
+   "shot": 293,
+   "target": "right-high",
+   "power": 0.71,
+   "outcome": "post",
+   "ball_x": 0.866,
+   "ball_y": 0.896
+  },
+  {
+   "shot": 294,
+   "target": "left-low",
+   "power": 0.51,
+   "outcome": "saved",
+   "ball_x": -0.66,
+   "ball_y": 0.368
+  },
+  {
+   "shot": 295,
+   "target": "left-high",
+   "power": 0.43,
+   "outcome": "goal",
+   "ball_x": -0.876,
+   "ball_y": 0.56
+  },
+  {
+   "shot": 296,
+   "target": "left-low",
+   "power": 0.82,
+   "outcome": "missed",
+   "ball_x": -0.426,
+   "ball_y": 0.289
+  },
+  {
+   "shot": 297,
+   "target": "right-low",
+   "power": 0.75,
+   "outcome": "goal",
+   "ball_x": 0.467,
+   "ball_y": 0.286
+  },
+  {
+   "shot": 298,
+   "target": "right-low",
+   "power": 0.72,
+   "outcome": "post",
+   "ball_x": 0.476,
+   "ball_y": 0.375
+  },
+  {
+   "shot": 299,
+   "target": "right-high",
+   "power": 0.75,
+   "outcome": "saved",
+   "ball_x": 0.559,
+   "ball_y": 0.529
+  },
+  {
+   "shot": 300,
+   "target": "center-low",
+   "power": 0.78,
+   "outcome": "saved",
+   "ball_x": -0.157,
+   "ball_y": 0.452
+  },
+  {
+   "shot": 301,
+   "target": "center-low",
+   "power": 0.79,
+   "outcome": "goal",
+   "ball_x": -0.116,
+   "ball_y": 0.386
+  },
+  {
+   "shot": 302,
+   "target": "left-high",
+   "power": 0.72,
+   "outcome": "goal",
+   "ball_x": -0.491,
+   "ball_y": 0.79
+  },
+  {
+   "shot": 303,
+   "target": "right-low",
+   "power": 0.93,
+   "outcome": "goal",
+   "ball_x": 0.719,
+   "ball_y": 0.294
+  },
+  {
+   "shot": 304,
+   "target": "center-low",
+   "power": 0.61,
+   "outcome": "saved",
+   "ball_x": 0.034,
+   "ball_y": 0.15
+  },
+  {
+   "shot": 305,
+   "target": "right-high",
+   "power": 0.45,
+   "outcome": "goal",
+   "ball_x": 0.483,
+   "ball_y": 0.575
+  },
+  {
+   "shot": 306,
+   "target": "left-high",
+   "power": 0.9,
+   "outcome": "post",
+   "ball_x": -0.481,
+   "ball_y": 0.773
+  },
+  {
+   "shot": 307,
+   "target": "left-high",
+   "power": 0.43,
+   "outcome": "saved",
+   "ball_x": -0.711,
+   "ball_y": 0.789
+  },
+  {
+   "shot": 308,
+   "target": "left-low",
+   "power": 0.69,
+   "outcome": "goal",
+   "ball_x": -0.532,
+   "ball_y": 0.371
+  },
+  {
+   "shot": 309,
+   "target": "center-low",
+   "power": 0.54,
+   "outcome": "goal",
+   "ball_x": 0.296,
+   "ball_y": 0.413
+  },
+  {
+   "shot": 310,
+   "target": "center-high",
+   "power": 0.59,
+   "outcome": "post",
+   "ball_x": -0.22,
+   "ball_y": 0.906
+  },
+  {
+   "shot": 311,
+   "target": "right-low",
+   "power": 0.75,
+   "outcome": "goal",
+   "ball_x": 0.779,
+   "ball_y": 0.421
+  },
+  {
+   "shot": 312,
+   "target": "right-low",
+   "power": 0.56,
+   "outcome": "goal",
+   "ball_x": 0.758,
+   "ball_y": 0.108
+  },
+  {
+   "shot": 313,
+   "target": "right-high",
+   "power": 0.48,
+   "outcome": "saved",
+   "ball_x": 0.5,
+   "ball_y": 0.875
+  },
+  {
+   "shot": 314,
+   "target": "left-low",
+   "power": 0.42,
+   "outcome": "post",
+   "ball_x": -0.652,
+   "ball_y": 0.099
+  },
+  {
+   "shot": 315,
+   "target": "right-high",
+   "power": 0.88,
+   "outcome": "goal",
+   "ball_x": 0.899,
+   "ball_y": 0.843
+  },
+  {
+   "shot": 316,
+   "target": "center-high",
+   "power": 0.78,
+   "outcome": "goal",
+   "ball_x": -0.284,
+   "ball_y": 0.882
+  },
+  {
+   "shot": 317,
+   "target": "center-low",
+   "power": 0.48,
+   "outcome": "goal",
+   "ball_x": -0.16,
+   "ball_y": 0.188
+  },
+  {
+   "shot": 318,
+   "target": "left-low",
+   "power": 0.84,
+   "outcome": "saved",
+   "ball_x": -0.817,
+   "ball_y": 0.272
+  },
+  {
+   "shot": 319,
+   "target": "center-high",
+   "power": 0.56,
+   "outcome": "saved",
+   "ball_x": 0.276,
+   "ball_y": 0.884
+  },
+  {
+   "shot": 320,
+   "target": "right-high",
+   "power": 0.5,
+   "outcome": "goal",
+   "ball_x": 0.467,
+   "ball_y": 0.892
+  },
+  {
+   "shot": 321,
+   "target": "center-high",
+   "power": 0.49,
+   "outcome": "goal",
+   "ball_x": -0.148,
+   "ball_y": 0.825
+  },
+  {
+   "shot": 322,
+   "target": "center-low",
+   "power": 0.82,
+   "outcome": "missed",
+   "ball_x": 0.156,
+   "ball_y": 0.222
+  },
+  {
+   "shot": 323,
+   "target": "center-low",
+   "power": 0.41,
+   "outcome": "post",
+   "ball_x": -0.176,
+   "ball_y": 0.091
+  },
+  {
+   "shot": 324,
+   "target": "right-high",
+   "power": 0.4,
+   "outcome": "saved",
+   "ball_x": 0.569,
+   "ball_y": 0.637
+  },
+  {
+   "shot": 325,
+   "target": "left-low",
+   "power": 0.81,
+   "outcome": "goal",
+   "ball_x": -0.808,
+   "ball_y": 0.159
+  },
+  {
+   "shot": 326,
+   "target": "center-high",
+   "power": 0.89,
+   "outcome": "goal",
+   "ball_x": 0.145,
+   "ball_y": 0.663
+  },
+  {
+   "shot": 327,
+   "target": "left-low",
+   "power": 0.73,
+   "outcome": "missed",
+   "ball_x": -0.786,
+   "ball_y": 0.13
+  },
+  {
+   "shot": 328,
+   "target": "left-high",
+   "power": 0.88,
+   "outcome": "goal",
+   "ball_x": -0.813,
+   "ball_y": 0.582
+  },
+  {
+   "shot": 329,
+   "target": "left-high",
+   "power": 0.51,
+   "outcome": "saved",
+   "ball_x": -0.626,
+   "ball_y": 0.877
+  },
+  {
+   "shot": 330,
+   "target": "left-high",
+   "power": 0.71,
+   "outcome": "goal",
+   "ball_x": -0.349,
+   "ball_y": 0.571
+  },
+  {
+   "shot": 331,
+   "target": "right-high",
+   "power": 0.66,
+   "outcome": "post",
+   "ball_x": 0.824,
+   "ball_y": 0.636
+  },
+  {
+   "shot": 332,
+   "target": "right-high",
+   "power": 0.89,
+   "outcome": "goal",
+   "ball_x": 0.884,
+   "ball_y": 0.792
+  },
+  {
+   "shot": 333,
+   "target": "center-high",
+   "power": 0.43,
+   "outcome": "saved",
+   "ball_x": -0.033,
+   "ball_y": 0.863
+  },
+  {
+   "shot": 334,
+   "target": "right-low",
+   "power": 0.47,
+   "outcome": "goal",
+   "ball_x": 0.395,
+   "ball_y": 0.15
+  },
+  {
+   "shot": 335,
+   "target": "center-low",
+   "power": 0.92,
+   "outcome": "goal",
+   "ball_x": -0.114,
+   "ball_y": 0.138
+  },
+  {
+   "shot": 336,
+   "target": "right-low",
+   "power": 0.76,
+   "outcome": "goal",
+   "ball_x": 0.774,
+   "ball_y": 0.467
+  },
+  {
+   "shot": 337,
+   "target": "left-low",
+   "power": 0.49,
+   "outcome": "saved",
+   "ball_x": -0.86,
+   "ball_y": 0.129
+  },
+  {
+   "shot": 338,
+   "target": "right-high",
+   "power": 0.48,
+   "outcome": "saved",
+   "ball_x": 0.643,
+   "ball_y": 0.709
+  },
+  {
+   "shot": 339,
+   "target": "left-high",
+   "power": 0.5,
+   "outcome": "saved",
+   "ball_x": -0.601,
+   "ball_y": 0.862
+  },
+  {
+   "shot": 340,
+   "target": "right-low",
+   "power": 0.78,
+   "outcome": "goal",
+   "ball_x": 0.485,
+   "ball_y": 0.119
+  },
+  {
+   "shot": 341,
+   "target": "left-high",
+   "power": 0.71,
+   "outcome": "saved",
+   "ball_x": -0.441,
+   "ball_y": 0.835
+  },
+  {
+   "shot": 342,
+   "target": "right-high",
+   "power": 0.82,
+   "outcome": "goal",
+   "ball_x": 0.745,
+   "ball_y": 0.713
+  },
+  {
+   "shot": 343,
+   "target": "left-low",
+   "power": 0.52,
+   "outcome": "goal",
+   "ball_x": -0.448,
+   "ball_y": 0.396
+  },
+  {
+   "shot": 344,
+   "target": "right-high",
+   "power": 0.64,
+   "outcome": "goal",
+   "ball_x": 0.316,
+   "ball_y": 0.612
+  },
+  {
+   "shot": 345,
+   "target": "left-high",
+   "power": 0.93,
+   "outcome": "saved",
+   "ball_x": -0.616,
+   "ball_y": 0.598
+  },
+  {
+   "shot": 346,
+   "target": "left-high",
+   "power": 0.49,
+   "outcome": "post",
+   "ball_x": -0.649,
+   "ball_y": 0.894
+  },
+  {
+   "shot": 347,
+   "target": "left-low",
+   "power": 0.82,
+   "outcome": "goal",
+   "ball_x": -0.619,
+   "ball_y": 0.465
+  },
+  {
+   "shot": 348,
+   "target": "right-high",
+   "power": 0.77,
+   "outcome": "saved",
+   "ball_x": 0.562,
+   "ball_y": 0.73
+  },
+  {
+   "shot": 349,
+   "target": "right-high",
+   "power": 0.93,
+   "outcome": "post",
+   "ball_x": 0.868,
+   "ball_y": 0.504
+  },
+  {
+   "shot": 350,
+   "target": "left-low",
+   "power": 0.93,
+   "outcome": "goal",
+   "ball_x": -0.42,
+   "ball_y": 0.159
+  },
+  {
+   "shot": 351,
+   "target": "center-low",
+   "power": 0.49,
+   "outcome": "goal",
+   "ball_x": 0.11,
+   "ball_y": 0.475
+  },
+  {
+   "shot": 352,
+   "target": "right-low",
+   "power": 0.6,
+   "outcome": "post",
+   "ball_x": 0.307,
+   "ball_y": 0.498
+  },
+  {
+   "shot": 353,
+   "target": "center-high",
+   "power": 0.66,
+   "outcome": "goal",
+   "ball_x": -0.149,
+   "ball_y": 0.595
+  },
+  {
+   "shot": 354,
+   "target": "center-low",
+   "power": 0.86,
+   "outcome": "saved",
+   "ball_x": 0.295,
+   "ball_y": 0.108
+  },
+  {
+   "shot": 355,
+   "target": "right-high",
+   "power": 0.59,
+   "outcome": "goal",
+   "ball_x": 0.355,
+   "ball_y": 0.838
+  },
+  {
+   "shot": 356,
+   "target": "left-high",
+   "power": 0.46,
+   "outcome": "post",
+   "ball_x": -0.916,
+   "ball_y": 0.64
+  },
+  {
+   "shot": 357,
+   "target": "right-high",
+   "power": 0.57,
+   "outcome": "goal",
+   "ball_x": 0.685,
+   "ball_y": 0.778
+  },
+  {
+   "shot": 358,
+   "target": "left-low",
+   "power": 0.95,
+   "outcome": "saved",
+   "ball_x": -0.635,
+   "ball_y": 0.312
+  },
+  {
+   "shot": 359,
+   "target": "left-high",
+   "power": 0.92,
+   "outcome": "missed",
+   "ball_x": -0.863,
+   "ball_y": 0.593
+  },
+  {
+   "shot": 360,
+   "target": "left-low",
+   "power": 0.9,
+   "outcome": "missed",
+   "ball_x": -0.894,
+   "ball_y": 0.11
+  },
+  {
+   "shot": 361,
+   "target": "left-low",
+   "power": 0.4,
+   "outcome": "post",
+   "ball_x": -0.917,
+   "ball_y": 0.236
+  },
+  {
+   "shot": 362,
+   "target": "left-low",
+   "power": 0.54,
+   "outcome": "goal",
+   "ball_x": -0.792,
+   "ball_y": 0.489
+  },
+  {
+   "shot": 363,
+   "target": "center-low",
+   "power": 0.41,
+   "outcome": "goal",
+   "ball_x": -0.111,
+   "ball_y": 0.386
+  },
+  {
+   "shot": 364,
+   "target": "right-low",
+   "power": 0.94,
+   "outcome": "goal",
+   "ball_x": 0.84,
+   "ball_y": 0.103
+  },
+  {
+   "shot": 365,
+   "target": "center-low",
+   "power": 0.78,
+   "outcome": "post",
+   "ball_x": -0.129,
+   "ball_y": 0.23
+  },
+  {
+   "shot": 366,
+   "target": "right-high",
+   "power": 0.54,
+   "outcome": "goal",
+   "ball_x": 0.341,
+   "ball_y": 0.793
+  },
+  {
+   "shot": 367,
+   "target": "right-high",
+   "power": 0.6,
+   "outcome": "goal",
+   "ball_x": 0.88,
+   "ball_y": 0.789
+  },
+  {
+   "shot": 368,
+   "target": "left-high",
+   "power": 0.75,
+   "outcome": "post",
+   "ball_x": -0.655,
+   "ball_y": 0.767
+  },
+  {
+   "shot": 369,
+   "target": "right-high",
+   "power": 0.42,
+   "outcome": "post",
+   "ball_x": 0.392,
+   "ball_y": 0.908
+  },
+  {
+   "shot": 370,
+   "target": "left-high",
+   "power": 0.76,
+   "outcome": "saved",
+   "ball_x": -0.609,
+   "ball_y": 0.671
+  },
+  {
+   "shot": 371,
+   "target": "right-low",
+   "power": 0.57,
+   "outcome": "saved",
+   "ball_x": 0.325,
+   "ball_y": 0.405
+  },
+  {
+   "shot": 372,
+   "target": "left-high",
+   "power": 0.89,
+   "outcome": "saved",
+   "ball_x": -0.617,
+   "ball_y": 0.622
+  },
+  {
+   "shot": 373,
+   "target": "right-low",
+   "power": 0.71,
+   "outcome": "post",
+   "ball_x": 0.303,
+   "ball_y": 0.374
+  },
+  {
+   "shot": 374,
+   "target": "center-low",
+   "power": 0.69,
+   "outcome": "goal",
+   "ball_x": -0.245,
+   "ball_y": 0.321
+  },
+  {
+   "shot": 375,
+   "target": "left-high",
+   "power": 0.47,
+   "outcome": "saved",
+   "ball_x": -0.476,
+   "ball_y": 0.67
+  },
+  {
+   "shot": 376,
+   "target": "right-low",
+   "power": 0.58,
+   "outcome": "goal",
+   "ball_x": 0.789,
+   "ball_y": 0.279
+  },
+  {
+   "shot": 377,
+   "target": "right-low",
+   "power": 0.91,
+   "outcome": "saved",
+   "ball_x": 0.762,
+   "ball_y": 0.377
+  },
+  {
+   "shot": 378,
+   "target": "right-high",
+   "power": 0.64,
+   "outcome": "goal",
+   "ball_x": 0.433,
+   "ball_y": 0.588
+  },
+  {
+   "shot": 379,
+   "target": "center-low",
+   "power": 0.46,
+   "outcome": "goal",
+   "ball_x": -0.154,
+   "ball_y": 0.132
+  },
+  {
+   "shot": 380,
+   "target": "center-high",
+   "power": 0.91,
+   "outcome": "missed",
+   "ball_x": 0.119,
+   "ball_y": 0.545
+  },
+  {
+   "shot": 381,
+   "target": "right-low",
+   "power": 0.78,
+   "outcome": "post",
+   "ball_x": 1.004,
+   "ball_y": 0.368
+  },
+  {
+   "shot": 382,
+   "target": "left-high",
+   "power": 0.69,
+   "outcome": "post",
+   "ball_x": -0.83,
+   "ball_y": 0.902
+  },
+  {
+   "shot": 383,
+   "target": "right-high",
+   "power": 0.62,
+   "outcome": "post",
+   "ball_x": 0.306,
+   "ball_y": 0.629
+  },
+  {
+   "shot": 384,
+   "target": "right-high",
+   "power": 0.87,
+   "outcome": "goal",
+   "ball_x": 0.388,
+   "ball_y": 0.662
+  },
+  {
+   "shot": 385,
+   "target": "center-high",
+   "power": 0.95,
+   "outcome": "goal",
+   "ball_x": -0.146,
+   "ball_y": 0.586
+  },
+  {
+   "shot": 386,
+   "target": "right-high",
+   "power": 0.42,
+   "outcome": "post",
+   "ball_x": 0.567,
+   "ball_y": 0.624
+  },
+  {
+   "shot": 387,
+   "target": "left-high",
+   "power": 0.91,
+   "outcome": "goal",
+   "ball_x": -0.465,
+   "ball_y": 0.647
+  },
+  {
+   "shot": 388,
+   "target": "right-high",
+   "power": 0.59,
+   "outcome": "goal",
+   "ball_x": 0.695,
+   "ball_y": 0.762
+  },
+  {
+   "shot": 389,
+   "target": "right-high",
+   "power": 0.81,
+   "outcome": "post",
+   "ball_x": 0.476,
+   "ball_y": 0.508
+  },
+  {
+   "shot": 390,
+   "target": "right-low",
+   "power": 0.74,
+   "outcome": "post",
+   "ball_x": 0.96,
+   "ball_y": 0.494
+  },
+  {
+   "shot": 391,
+   "target": "right-low",
+   "power": 0.57,
+   "outcome": "post",
+   "ball_x": 0.652,
+   "ball_y": 0.373
+  },
+  {
+   "shot": 392,
+   "target": "left-low",
+   "power": 0.61,
+   "outcome": "goal",
+   "ball_x": -0.336,
+   "ball_y": 0.337
+  },
+  {
+   "shot": 393,
+   "target": "right-low",
+   "power": 0.75,
+   "outcome": "post",
+   "ball_x": 0.563,
+   "ball_y": 0.372
+  },
+  {
+   "shot": 394,
+   "target": "center-low",
+   "power": 0.73,
+   "outcome": "goal",
+   "ball_x": -0.19,
+   "ball_y": 0.246
+  },
+  {
+   "shot": 395,
+   "target": "left-high",
+   "power": 0.65,
+   "outcome": "missed",
+   "ball_x": -0.876,
+   "ball_y": 0.571
+  },
+  {
+   "shot": 396,
+   "target": "right-high",
+   "power": 0.42,
+   "outcome": "goal",
+   "ball_x": 0.753,
+   "ball_y": 0.746
+  },
+  {
+   "shot": 397,
+   "target": "center-high",
+   "power": 0.74,
+   "outcome": "post",
+   "ball_x": -0.134,
+   "ball_y": 0.631
+  },
+  {
+   "shot": 398,
+   "target": "right-low",
+   "power": 0.47,
+   "outcome": "saved",
+   "ball_x": 0.855,
+   "ball_y": 0.417
+  },
+  {
+   "shot": 399,
+   "target": "center-low",
+   "power": 0.85,
+   "outcome": "missed",
+   "ball_x": 0.26,
+   "ball_y": 0.187
+  },
+  {
+   "shot": 400,
+   "target": "center-high",
+   "power": 0.5,
+   "outcome": "saved",
+   "ball_x": -0.283,
+   "ball_y": 0.631
+  },
+  {
+   "shot": 401,
+   "target": "center-low",
+   "power": 0.65,
+   "outcome": "goal",
+   "ball_x": 0.03,
+   "ball_y": 0.447
+  },
+  {
+   "shot": 402,
+   "target": "right-low",
+   "power": 0.6,
+   "outcome": "goal",
+   "ball_x": 0.324,
+   "ball_y": 0.19
+  },
+  {
+   "shot": 403,
+   "target": "left-low",
+   "power": 0.83,
+   "outcome": "goal",
+   "ball_x": -0.607,
+   "ball_y": 0.358
+  },
+  {
+   "shot": 404,
+   "target": "right-low",
+   "power": 0.83,
+   "outcome": "post",
+   "ball_x": 0.698,
+   "ball_y": 0.237
+  },
+  {
+   "shot": 405,
+   "target": "left-high",
+   "power": 0.59,
+   "outcome": "goal",
+   "ball_x": -0.343,
+   "ball_y": 0.568
+  },
+  {
+   "shot": 406,
+   "target": "center-high",
+   "power": 0.78,
+   "outcome": "post",
+   "ball_x": -0.129,
+   "ball_y": 0.768
+  },
+  {
+   "shot": 407,
+   "target": "left-high",
+   "power": 0.6,
+   "outcome": "goal",
+   "ball_x": -0.83,
+   "ball_y": 0.836
+  },
+  {
+   "shot": 408,
+   "target": "center-high",
+   "power": 0.9,
+   "outcome": "goal",
+   "ball_x": -0.142,
+   "ball_y": 0.805
+  },
+  {
+   "shot": 409,
+   "target": "center-high",
+   "power": 0.8,
+   "outcome": "saved",
+   "ball_x": -0.252,
+   "ball_y": 0.752
+  },
+  {
+   "shot": 410,
+   "target": "center-high",
+   "power": 0.94,
+   "outcome": "goal",
+   "ball_x": -0.077,
+   "ball_y": 0.588
+  },
+  {
+   "shot": 411,
+   "target": "center-high",
+   "power": 0.88,
+   "outcome": "saved",
+   "ball_x": -0.283,
+   "ball_y": 0.704
+  },
+  {
+   "shot": 412,
+   "target": "center-low",
+   "power": 0.87,
+   "outcome": "goal",
+   "ball_x": 0.128,
+   "ball_y": 0.482
+  },
+  {
+   "shot": 413,
+   "target": "left-low",
+   "power": 0.73,
+   "outcome": "goal",
+   "ball_x": -0.355,
+   "ball_y": 0.402
+  },
+  {
+   "shot": 414,
+   "target": "left-low",
+   "power": 0.87,
+   "outcome": "post",
+   "ball_x": -0.651,
+   "ball_y": 0.492
+  },
+  {
+   "shot": 415,
+   "target": "right-high",
+   "power": 0.58,
+   "outcome": "goal",
+   "ball_x": 0.66,
+   "ball_y": 0.508
+  },
+  {
+   "shot": 416,
+   "target": "center-high",
+   "power": 0.66,
+   "outcome": "goal",
+   "ball_x": -0.224,
+   "ball_y": 0.888
+  },
+  {
+   "shot": 417,
+   "target": "center-low",
+   "power": 0.56,
+   "outcome": "saved",
+   "ball_x": 0.214,
+   "ball_y": 0.393
+  },
+  {
+   "shot": 418,
+   "target": "right-low",
+   "power": 0.43,
+   "outcome": "missed",
+   "ball_x": 0.699,
+   "ball_y": 0.444
+  },
+  {
+   "shot": 419,
+   "target": "center-low",
+   "power": 0.84,
+   "outcome": "saved",
+   "ball_x": -0.276,
+   "ball_y": 0.115
+  },
+  {
+   "shot": 420,
+   "target": "center-high",
+   "power": 0.85,
+   "outcome": "post",
+   "ball_x": -0.087,
+   "ball_y": 0.896
+  },
+  {
+   "shot": 421,
+   "target": "right-low",
+   "power": 0.53,
+   "outcome": "saved",
+   "ball_x": 0.445,
+   "ball_y": 0.389
+  },
+  {
+   "shot": 422,
+   "target": "left-high",
+   "power": 0.64,
+   "outcome": "goal",
+   "ball_x": -0.365,
+   "ball_y": 0.747
+  },
+  {
+   "shot": 423,
+   "target": "center-low",
+   "power": 0.85,
+   "outcome": "goal",
+   "ball_x": -0.117,
+   "ball_y": 0.487
+  },
+  {
+   "shot": 424,
+   "target": "left-low",
+   "power": 0.88,
+   "outcome": "goal",
+   "ball_x": -0.714,
+   "ball_y": 0.384
+  },
+  {
+   "shot": 425,
+   "target": "center-low",
+   "power": 0.74,
+   "outcome": "saved",
+   "ball_x": 0.167,
+   "ball_y": 0.235
+  },
+  {
+   "shot": 426,
+   "target": "left-high",
+   "power": 0.83,
+   "outcome": "missed",
+   "ball_x": -0.614,
+   "ball_y": 0.892
+  },
+  {
+   "shot": 427,
+   "target": "center-low",
+   "power": 0.92,
+   "outcome": "goal",
+   "ball_x": -0.246,
+   "ball_y": 0.184
+  },
+  {
+   "shot": 428,
+   "target": "left-low",
+   "power": 0.9,
+   "outcome": "goal",
+   "ball_x": -0.553,
+   "ball_y": 0.48
+  },
+  {
+   "shot": 429,
+   "target": "center-high",
+   "power": 0.91,
+   "outcome": "saved",
+   "ball_x": 0.083,
+   "ball_y": 0.69
+  },
+  {
+   "shot": 430,
+   "target": "left-high",
+   "power": 0.71,
+   "outcome": "saved",
+   "ball_x": -0.52,
+   "ball_y": 0.883
+  },
+  {
+   "shot": 431,
+   "target": "right-high",
+   "power": 0.8,
+   "outcome": "post",
+   "ball_x": 0.997,
+   "ball_y": 0.503
+  },
+  {
+   "shot": 432,
+   "target": "center-high",
+   "power": 0.81,
+   "outcome": "goal",
+   "ball_x": -0.182,
+   "ball_y": 0.527
+  },
+  {
+   "shot": 433,
+   "target": "center-low",
+   "power": 0.52,
+   "outcome": "goal",
+   "ball_x": -0.056,
+   "ball_y": 0.125
+  },
+  {
+   "shot": 434,
+   "target": "left-high",
+   "power": 0.93,
+   "outcome": "goal",
+   "ball_x": -0.425,
+   "ball_y": 0.848
+  },
+  {
+   "shot": 435,
+   "target": "right-high",
+   "power": 0.76,
+   "outcome": "goal",
+   "ball_x": 0.545,
+   "ball_y": 0.889
+  },
+  {
+   "shot": 436,
+   "target": "center-low",
+   "power": 0.79,
+   "outcome": "post",
+   "ball_x": 0.129,
+   "ball_y": 0.373
+  },
+  {
+   "shot": 437,
+   "target": "center-low",
+   "power": 0.56,
+   "outcome": "post",
+   "ball_x": -0.132,
+   "ball_y": 0.495
+  },
+  {
+   "shot": 438,
+   "target": "center-high",
+   "power": 0.85,
+   "outcome": "missed",
+   "ball_x": 0.208,
+   "ball_y": 0.769
+  },
+  {
+   "shot": 439,
+   "target": "left-low",
+   "power": 0.6,
+   "outcome": "missed",
+   "ball_x": -0.642,
+   "ball_y": 0.277
+  },
+  {
+   "shot": 440,
+   "target": "center-low",
+   "power": 0.52,
+   "outcome": "post",
+   "ball_x": -0.134,
+   "ball_y": 0.102
+  },
+  {
+   "shot": 441,
+   "target": "left-low",
+   "power": 0.88,
+   "outcome": "goal",
+   "ball_x": -0.862,
+   "ball_y": 0.488
+  },
+  {
+   "shot": 442,
+   "target": "left-low",
+   "power": 0.43,
+   "outcome": "saved",
+   "ball_x": -0.717,
+   "ball_y": 0.367
+  },
+  {
+   "shot": 443,
+   "target": "right-low",
+   "power": 0.68,
+   "outcome": "goal",
+   "ball_x": 0.84,
+   "ball_y": 0.178
+  },
+  {
+   "shot": 444,
+   "target": "left-low",
+   "power": 0.47,
+   "outcome": "post",
+   "ball_x": -0.346,
+   "ball_y": 0.231
+  },
+  {
+   "shot": 445,
+   "target": "right-high",
+   "power": 0.71,
+   "outcome": "saved",
+   "ball_x": 0.633,
+   "ball_y": 0.845
+  },
+  {
+   "shot": 446,
+   "target": "left-low",
+   "power": 0.68,
+   "outcome": "goal",
+   "ball_x": -0.325,
+   "ball_y": 0.232
+  },
+  {
+   "shot": 447,
+   "target": "left-low",
+   "power": 0.59,
+   "outcome": "saved",
+   "ball_x": -0.632,
+   "ball_y": 0.136
+  },
+  {
+   "shot": 448,
+   "target": "right-high",
+   "power": 0.51,
+   "outcome": "post",
+   "ball_x": 0.436,
+   "ball_y": 0.899
+  },
+  {
+   "shot": 449,
+   "target": "left-high",
+   "power": 0.7,
+   "outcome": "goal",
+   "ball_x": -0.398,
+   "ball_y": 0.6
+  },
+  {
+   "shot": 450,
+   "target": "right-high",
+   "power": 0.41,
+   "outcome": "post",
+   "ball_x": 0.477,
+   "ball_y": 0.764
+  },
+  {
+   "shot": 451,
+   "target": "center-high",
+   "power": 0.59,
+   "outcome": "saved",
+   "ball_x": 0.135,
+   "ball_y": 0.773
+  },
+  {
+   "shot": 452,
+   "target": "center-low",
+   "power": 0.76,
+   "outcome": "goal",
+   "ball_x": 0.027,
+   "ball_y": 0.339
+  },
+  {
+   "shot": 453,
+   "target": "right-high",
+   "power": 0.83,
+   "outcome": "saved",
+   "ball_x": 0.838,
+   "ball_y": 0.564
+  },
+  {
+   "shot": 454,
+   "target": "left-high",
+   "power": 0.86,
+   "outcome": "goal",
+   "ball_x": -0.774,
+   "ball_y": 0.595
+  },
+  {
+   "shot": 455,
+   "target": "right-high",
+   "power": 0.61,
+   "outcome": "saved",
+   "ball_x": 0.691,
+   "ball_y": 0.789
+  },
+  {
+   "shot": 456,
+   "target": "left-low",
+   "power": 0.56,
+   "outcome": "post",
+   "ball_x": -0.605,
+   "ball_y": 0.106
+  },
+  {
+   "shot": 457,
+   "target": "right-low",
+   "power": 0.83,
+   "outcome": "saved",
+   "ball_x": 0.529,
+   "ball_y": 0.163
+  },
+  {
+   "shot": 458,
+   "target": "center-high",
+   "power": 0.95,
+   "outcome": "missed",
+   "ball_x": -0.271,
+   "ball_y": 0.641
+  },
+  {
+   "shot": 459,
+   "target": "right-high",
+   "power": 0.81,
+   "outcome": "missed",
+   "ball_x": 0.456,
+   "ball_y": 0.752
+  },
+  {
+   "shot": 460,
+   "target": "right-high",
+   "power": 0.46,
+   "outcome": "goal",
+   "ball_x": 0.32,
+   "ball_y": 0.746
+  },
+  {
+   "shot": 461,
+   "target": "left-low",
+   "power": 0.9,
+   "outcome": "goal",
+   "ball_x": -0.347,
+   "ball_y": 0.444
+  },
+  {
+   "shot": 462,
+   "target": "center-low",
+   "power": 0.79,
+   "outcome": "goal",
+   "ball_x": 0.146,
+   "ball_y": 0.195
+  },
+  {
+   "shot": 463,
+   "target": "center-high",
+   "power": 0.92,
+   "outcome": "goal",
+   "ball_x": -0.0,
+   "ball_y": 0.873
+  },
+  {
+   "shot": 464,
+   "target": "center-high",
+   "power": 0.76,
+   "outcome": "goal",
+   "ball_x": -0.16,
+   "ball_y": 0.529
+  },
+  {
+   "shot": 465,
+   "target": "right-high",
+   "power": 0.45,
+   "outcome": "post",
+   "ball_x": 0.439,
+   "ball_y": 0.505
+  },
+  {
+   "shot": 466,
+   "target": "center-low",
+   "power": 0.6,
+   "outcome": "goal",
+   "ball_x": -0.156,
+   "ball_y": 0.286
+  },
+  {
+   "shot": 467,
+   "target": "right-high",
+   "power": 0.43,
+   "outcome": "goal",
+   "ball_x": 0.331,
+   "ball_y": 0.735
+  },
+  {
+   "shot": 468,
+   "target": "center-low",
+   "power": 0.94,
+   "outcome": "goal",
+   "ball_x": -0.29,
+   "ball_y": 0.418
+  },
+  {
+   "shot": 469,
+   "target": "center-high",
+   "power": 0.54,
+   "outcome": "goal",
+   "ball_x": 0.29,
+   "ball_y": 0.768
+  },
+  {
+   "shot": 470,
+   "target": "left-high",
+   "power": 0.93,
+   "outcome": "post",
+   "ball_x": -0.958,
+   "ball_y": 0.893
+  },
+  {
+   "shot": 471,
+   "target": "center-low",
+   "power": 0.57,
+   "outcome": "missed",
+   "ball_x": 0.213,
+   "ball_y": 0.322
+  },
+  {
+   "shot": 472,
+   "target": "right-low",
+   "power": 0.67,
+   "outcome": "saved",
+   "ball_x": 0.343,
+   "ball_y": 0.374
+  },
+  {
+   "shot": 473,
+   "target": "right-high",
+   "power": 0.79,
+   "outcome": "post",
+   "ball_x": 0.346,
+   "ball_y": 0.907
+  },
+  {
+   "shot": 474,
+   "target": "right-high",
+   "power": 0.58,
+   "outcome": "goal",
+   "ball_x": 0.842,
+   "ball_y": 0.867
+  },
+  {
+   "shot": 475,
+   "target": "center-low",
+   "power": 0.87,
+   "outcome": "goal",
+   "ball_x": 0.048,
+   "ball_y": 0.213
+  },
+  {
+   "shot": 476,
+   "target": "right-high",
+   "power": 0.42,
+   "outcome": "goal",
+   "ball_x": 0.711,
+   "ball_y": 0.723
+  },
+  {
+   "shot": 477,
+   "target": "right-low",
+   "power": 0.63,
+   "outcome": "saved",
+   "ball_x": 0.726,
+   "ball_y": 0.318
+  },
+  {
+   "shot": 478,
+   "target": "center-low",
+   "power": 0.42,
+   "outcome": "goal",
+   "ball_x": 0.241,
+   "ball_y": 0.354
+  },
+  {
+   "shot": 479,
+   "target": "left-low",
+   "power": 0.49,
+   "outcome": "post",
+   "ball_x": -0.566,
+   "ball_y": 0.1
+  },
+  {
+   "shot": 480,
+   "target": "left-high",
+   "power": 0.58,
+   "outcome": "goal",
+   "ball_x": -0.727,
+   "ball_y": 0.782
+  },
+  {
+   "shot": 481,
+   "target": "center-low",
+   "power": 0.82,
+   "outcome": "post",
+   "ball_x": 0.127,
+   "ball_y": 0.104
+  },
+  {
+   "shot": 482,
+   "target": "right-low",
+   "power": 0.9,
+   "outcome": "goal",
+   "ball_x": 0.539,
+   "ball_y": 0.175
+  },
+  {
+   "shot": 483,
+   "target": "center-high",
+   "power": 0.83,
+   "outcome": "post",
+   "ball_x": 0.134,
+   "ball_y": 0.503
+  },
+  {
+   "shot": 484,
+   "target": "left-high",
+   "power": 0.81,
+   "outcome": "saved",
+   "ball_x": -0.612,
+   "ball_y": 0.713
+  },
+  {
+   "shot": 485,
+   "target": "center-low",
+   "power": 0.68,
+   "outcome": "saved",
+   "ball_x": -0.287,
+   "ball_y": 0.329
+  },
+  {
+   "shot": 486,
+   "target": "center-low",
+   "power": 0.52,
+   "outcome": "goal",
+   "ball_x": 0.193,
+   "ball_y": 0.119
+  },
+  {
+   "shot": 487,
+   "target": "center-high",
+   "power": 0.86,
+   "outcome": "post",
+   "ball_x": -0.044,
+   "ball_y": 0.892
+  },
+  {
+   "shot": 488,
+   "target": "left-low",
+   "power": 0.7,
+   "outcome": "post",
+   "ball_x": -0.915,
+   "ball_y": 0.376
+  },
+  {
+   "shot": 489,
+   "target": "center-high",
+   "power": 0.65,
+   "outcome": "goal",
+   "ball_x": 0.041,
+   "ball_y": 0.617
+  },
+  {
+   "shot": 490,
+   "target": "right-low",
+   "power": 0.42,
+   "outcome": "post",
+   "ball_x": 0.304,
+   "ball_y": 0.096
+  },
+  {
+   "shot": 491,
+   "target": "center-high",
+   "power": 0.62,
+   "outcome": "saved",
+   "ball_x": 0.204,
+   "ball_y": 0.747
+  },
+  {
+   "shot": 492,
+   "target": "left-high",
+   "power": 0.73,
+   "outcome": "post",
+   "ball_x": -0.74,
+   "ball_y": 0.903
+  },
+  {
+   "shot": 493,
+   "target": "center-low",
+   "power": 0.45,
+   "outcome": "saved",
+   "ball_x": -0.123,
+   "ball_y": 0.267
+  },
+  {
+   "shot": 494,
+   "target": "center-high",
+   "power": 0.52,
+   "outcome": "goal",
+   "ball_x": -0.079,
+   "ball_y": 0.678
+  },
+  {
+   "shot": 495,
+   "target": "left-low",
+   "power": 0.52,
+   "outcome": "saved",
+   "ball_x": -0.55,
+   "ball_y": 0.397
+  },
+  {
+   "shot": 496,
+   "target": "right-low",
+   "power": 0.6,
+   "outcome": "post",
+   "ball_x": 0.737,
+   "ball_y": 0.109
+  },
+  {
+   "shot": 497,
+   "target": "left-high",
+   "power": 0.94,
+   "outcome": "missed",
+   "ball_x": -0.669,
+   "ball_y": 0.728
+  },
+  {
+   "shot": 498,
+   "target": "center-low",
+   "power": 0.48,
+   "outcome": "goal",
+   "ball_x": -0.199,
+   "ball_y": 0.206
+  },
+  {
+   "shot": 499,
+   "target": "right-low",
+   "power": 0.44,
+   "outcome": "post",
+   "ball_x": 0.825,
+   "ball_y": 0.233
+  },
+  {
+   "shot": 500,
+   "target": "left-high",
+   "power": 0.54,
+   "outcome": "goal",
+   "ball_x": -0.475,
+   "ball_y": 0.514
+  },
+  {
+   "shot": 501,
+   "target": "center-high",
+   "power": 0.52,
+   "outcome": "saved",
+   "ball_x": -0.182,
+   "ball_y": 0.794
+  },
+  {
+   "shot": 502,
+   "target": "left-low",
+   "power": 0.65,
+   "outcome": "missed",
+   "ball_x": -0.337,
+   "ball_y": 0.473
+  },
+  {
+   "shot": 503,
+   "target": "right-high",
+   "power": 0.67,
+   "outcome": "saved",
+   "ball_x": 0.766,
+   "ball_y": 0.776
+  },
+  {
+   "shot": 504,
+   "target": "left-high",
+   "power": 0.6,
+   "outcome": "missed",
+   "ball_x": -0.403,
+   "ball_y": 0.531
+  },
+  {
+   "shot": 505,
+   "target": "left-high",
+   "power": 0.69,
+   "outcome": "goal",
+   "ball_x": -0.551,
+   "ball_y": 0.68
+  },
+  {
+   "shot": 506,
+   "target": "right-low",
+   "power": 0.5,
+   "outcome": "goal",
+   "ball_x": 0.85,
+   "ball_y": 0.32
+  },
+  {
+   "shot": 507,
+   "target": "center-high",
+   "power": 0.42,
+   "outcome": "missed",
+   "ball_x": 0.001,
+   "ball_y": 0.868
+  },
+  {
+   "shot": 508,
+   "target": "left-high",
+   "power": 0.47,
+   "outcome": "post",
+   "ball_x": -0.695,
+   "ball_y": 0.899
+  },
+  {
+   "shot": 509,
+   "target": "left-high",
+   "power": 0.45,
+   "outcome": "post",
+   "ball_x": -0.438,
+   "ball_y": 0.501
+  },
+  {
+   "shot": 510,
+   "target": "left-low",
+   "power": 0.68,
+   "outcome": "goal",
+   "ball_x": -0.629,
+   "ball_y": 0.425
+  },
+  {
+   "shot": 511,
+   "target": "right-high",
+   "power": 0.57,
+   "outcome": "goal",
+   "ball_x": 0.681,
+   "ball_y": 0.582
+  },
+  {
+   "shot": 512,
+   "target": "right-low",
+   "power": 0.55,
+   "outcome": "goal",
+   "ball_x": 0.821,
+   "ball_y": 0.254
+  },
+  {
+   "shot": 513,
+   "target": "center-low",
+   "power": 0.72,
+   "outcome": "goal",
+   "ball_x": 0.121,
+   "ball_y": 0.123
+  },
+  {
+   "shot": 514,
+   "target": "left-high",
+   "power": 0.91,
+   "outcome": "saved",
+   "ball_x": -0.461,
+   "ball_y": 0.544
+  },
+  {
+   "shot": 515,
+   "target": "center-high",
+   "power": 0.68,
+   "outcome": "goal",
+   "ball_x": -0.271,
+   "ball_y": 0.622
+  },
+  {
+   "shot": 516,
+   "target": "right-high",
+   "power": 0.83,
+   "outcome": "goal",
+   "ball_x": 0.566,
+   "ball_y": 0.867
+  },
+  {
+   "shot": 517,
+   "target": "left-high",
+   "power": 0.79,
+   "outcome": "goal",
+   "ball_x": -0.734,
+   "ball_y": 0.746
+  },
+  {
+   "shot": 518,
+   "target": "left-low",
+   "power": 0.56,
+   "outcome": "saved",
+   "ball_x": -0.606,
+   "ball_y": 0.399
+  },
+  {
+   "shot": 519,
+   "target": "left-low",
+   "power": 0.87,
+   "outcome": "post",
+   "ball_x": -0.652,
+   "ball_y": 0.229
+  },
+  {
+   "shot": 520,
+   "target": "left-low",
+   "power": 0.41,
+   "outcome": "saved",
+   "ball_x": -0.53,
+   "ball_y": 0.496
+  },
+  {
+   "shot": 521,
+   "target": "center-high",
+   "power": 0.69,
+   "outcome": "post",
+   "ball_x": 0.22,
+   "ball_y": 0.905
+  },
+  {
+   "shot": 522,
+   "target": "right-high",
+   "power": 0.81,
+   "outcome": "goal",
+   "ball_x": 0.678,
+   "ball_y": 0.816
+  },
+  {
+   "shot": 523,
+   "target": "right-high",
+   "power": 0.66,
+   "outcome": "goal",
+   "ball_x": 0.344,
+   "ball_y": 0.76
+  },
+  {
+   "shot": 524,
+   "target": "right-low",
+   "power": 0.78,
+   "outcome": "saved",
+   "ball_x": 0.873,
+   "ball_y": 0.218
+  },
+  {
+   "shot": 525,
+   "target": "right-low",
+   "power": 0.77,
+   "outcome": "goal",
+   "ball_x": 0.804,
+   "ball_y": 0.163
+  },
+  {
+   "shot": 526,
+   "target": "right-low",
+   "power": 0.79,
+   "outcome": "goal",
+   "ball_x": 0.729,
+   "ball_y": 0.456
+  },
+  {
+   "shot": 527,
+   "target": "center-low",
+   "power": 0.64,
+   "outcome": "saved",
+   "ball_x": -0.193,
+   "ball_y": 0.143
+  },
+  {
+   "shot": 528,
+   "target": "center-low",
+   "power": 0.77,
+   "outcome": "goal",
+   "ball_x": 0.046,
+   "ball_y": 0.113
+  },
+  {
+   "shot": 529,
+   "target": "right-high",
+   "power": 0.4,
+   "outcome": "saved",
+   "ball_x": 0.322,
+   "ball_y": 0.741
+  },
+  {
+   "shot": 530,
+   "target": "left-high",
+   "power": 0.84,
+   "outcome": "missed",
+   "ball_x": -0.775,
+   "ball_y": 0.696
+  },
+  {
+   "shot": 531,
+   "target": "center-high",
+   "power": 0.55,
+   "outcome": "goal",
+   "ball_x": 0.137,
+   "ball_y": 0.754
+  },
+  {
+   "shot": 532,
+   "target": "center-low",
+   "power": 0.79,
+   "outcome": "saved",
+   "ball_x": 0.146,
+   "ball_y": 0.357
+  },
+  {
+   "shot": 533,
+   "target": "center-high",
+   "power": 0.78,
+   "outcome": "post",
+   "ball_x": -0.176,
+   "ball_y": 0.892
+  },
+  {
+   "shot": 534,
+   "target": "left-low",
+   "power": 0.56,
+   "outcome": "missed",
+   "ball_x": -0.553,
+   "ball_y": 0.134
+  },
+  {
+   "shot": 535,
+   "target": "right-low",
+   "power": 0.62,
+   "outcome": "goal",
+   "ball_x": 0.694,
+   "ball_y": 0.201
+  },
+  {
+   "shot": 536,
+   "target": "center-high",
+   "power": 0.9,
+   "outcome": "goal",
+   "ball_x": 0.096,
+   "ball_y": 0.56
+  }
+ ]
+}

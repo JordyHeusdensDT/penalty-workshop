@@ -1,0 +1,15 @@
+Notes from the coach. Do not show the players.
+
+1. The golden boot is in this vault. I locked it with a short key that repeats from start to end.
+   Every photo starts the same way, though. Who would ever guess what a photo starts with?
+   Careful: a half-unlocked photo is broken. Check that it ends with FF D9 and that sips or Pillow reads its width before you open it.
+
+2. Yesterday I ran a CREATE OR REPLACE on our keeper notes in the scouting data. Oops.
+   The scouts' original notes are gone. Unless BigQuery remembers last week?
+
+3. One summer Sunday in 2025 (mid-July, I think) I took a penalty myself, and the scouts logged it
+   in the big archive with a note for you. The archive is huge. Do not read all of it.
+
+4. Tuesday's training: look where the shots that hit the post went. The ball tells a story.
+
+Say what you find to the stadium. The stadium pays for words.

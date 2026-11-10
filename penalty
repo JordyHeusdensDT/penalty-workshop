@@ -1,0 +1,305 @@
+#!/usr/bin/env python3
+"""penalty: play your bot against the stadium.
+
+Usage:
+  penalty whoami     show who the stadium thinks you are
+  penalty practice   play a practice shootout (no points)
+  penalty official   play an official shootout (counts; last 5 count)
+  penalty duel       play your finale duels (waits for each one, until you are out)
+  penalty sql "..."  run a SELECT on the club's scouting data (BigQuery, 1 GiB per query)
+  penalty mcp        run the stadium MCP server for your agent (stdio)
+  penalty logs       list your saved match logs
+
+Sign in once with your Devoteam account: gcloud auth login --update-adc you@devoteam.com
+"""
+import importlib.util
+import json
+import os
+import http.client
+import subprocess
+import sys
+import time
+import urllib.error
+import urllib.request
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+ENV = HERE / ".env"
+CLIENT = "cli"
+
+
+class StadiumError(Exception):
+    pass
+
+
+def config() -> dict:
+    cfg = {"PENALTY_URL": "https://stadium-fu2lq37ygq-ew.a.run.app"}
+    if ENV.exists():
+        for line in ENV.read_text().splitlines():
+            if "=" in line and not line.startswith("#"):
+                k, v = line.split("=", 1)
+                cfg[k.strip()] = v.strip()
+    cfg.update({k: v for k, v in os.environ.items() if k.startswith("PENALTY_")})
+    return cfg
+
+
+def gcloud(*args: str) -> str:
+    try:
+        r = subprocess.run(["gcloud", *args], capture_output=True, text=True, timeout=30)
+    except FileNotFoundError:
+        raise StadiumError("gcloud not found: install the gcloud CLI, then gcloud auth login --update-adc you@devoteam.com")
+    except subprocess.SubprocessError as e:
+        raise StadiumError(f"gcloud failed: {e}")
+    if r.returncode != 0:
+        raise StadiumError(f"gcloud failed: {r.stderr.strip()}")
+    return r.stdout.strip()
+
+
+def identity() -> dict:
+    cfg = config()
+    if cfg.get("PENALTY_DEV_USER"):
+        return {"X-Dev-User": cfg["PENALTY_DEV_USER"]}
+    if cfg.get("PENALTY_ID_TOKEN"):
+        return {"Authorization": f"Bearer {cfg['PENALTY_ID_TOKEN']}"}
+    account = cfg.get("PENALTY_ACCOUNT")
+    if not account:
+        devoteam = [a for a in gcloud("auth", "list", "--format=value(account)").split() if a.endswith("@devoteam.com")]
+        if not devoteam:
+            raise StadiumError("no @devoteam.com account in gcloud: run gcloud auth login --update-adc you@devoteam.com")
+        account = devoteam[0]
+    return {"Authorization": f"Bearer {gcloud('auth', 'print-identity-token', f'--account={account}')}"}
+
+
+HEADERS: dict = {}
+
+
+def call(method: str, path: str, body: dict | None = None, soft: tuple = ()) -> dict | None:
+    url = config().get("PENALTY_URL", "").rstrip("/")
+    for attempt in (1, 2):
+        if not HEADERS:
+            HEADERS.update(identity())
+        req = urllib.request.Request(url + path, method=method,
+                                     data=json.dumps(body).encode() if body is not None else None,
+                                     headers={"Content-Type": "application/json", "X-Penalty-Client": CLIENT, **HEADERS})
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r:
+                return json.loads(r.read())
+        except urllib.error.HTTPError as e:
+            if e.code in soft:
+                return None
+            if e.code == 401 and attempt == 1:
+                HEADERS.clear()      # identity tokens expire after an hour: get a fresh one once
+                continue
+            try:
+                detail = json.loads(e.read() or b"{}").get("detail", e.reason)
+            except ValueError:
+                detail = e.reason
+            raise StadiumError(f"stadium says ({e.code}): {detail}")
+        except (urllib.error.URLError, OSError, http.client.HTTPException) as e:
+            raise StadiumError(f"cannot reach the stadium at {url!r}: {getattr(e, 'reason', e)}")
+
+
+def bot_error(msg: str):
+    print(f"bot.py: {msg}", file=sys.stderr)
+    sys.exit(2)
+
+
+def load_bot():
+    spec = importlib.util.spec_from_file_location("bot", HERE / "bot.py")
+    bot = importlib.util.module_from_spec(spec)
+    try:
+        spec.loader.exec_module(bot)
+    except Exception as e:
+        bot_error(f"could not load: {type(e).__name__}: {e}")
+    for fn in ("shoot", "keep"):
+        if not callable(getattr(bot, fn, None)):
+            bot_error(f"missing function {fn}(state)")
+    return bot
+
+
+def ask(bot, fn: str, state: dict):
+    try:
+        out = getattr(bot, fn)(state)
+    except Exception as e:
+        bot_error(f"{fn}() raised {type(e).__name__}: {e}")
+    if fn == "shoot":
+        if not (isinstance(out, (tuple, list)) and len(out) == 2):
+            bot_error(f"shoot() must return (target, power), got {out!r}")
+        return {"target": out[0], "power": out[1]}
+    if not isinstance(out, str):
+        bot_error(f"keep() must return 'left', 'center' or 'right', got {out!r}")
+    return {"dive": out}
+
+
+def show(k: dict) -> None:
+    who = "you shoot" if k["shooter"] == "player" else "you keep "
+    print(f"{who}  {k['target']:<12} power {k['power']:.2f}  keeper {k['dive']:<6} -> {k['outcome']}", flush=True)
+
+
+def play(mode: str):
+    bot = load_bot()
+    m = call("POST", "/matches", {"mode": mode})
+    mid, state = m["match_id"], m["state"]
+    while not state["finished"]:
+        need = state["need"]
+        r = call("POST", f"/matches/{mid}/{need}", ask(bot, need, state))
+        k, state = r["kick"], r["state"]
+        show(k)
+    print(f"Final score: you {state['score']['you']} - {state['score']['house']} house")
+    logs = HERE / "logs"
+    logs.mkdir(exist_ok=True)
+    (logs / f"{mid}.json").write_text(json.dumps(call("GET", f"/matches/{mid}/log"), indent=2))
+
+
+
+def duel():
+    bot = load_bot()
+    while True:
+        print("waiting for your duel (Ctrl+C to stop)...", flush=True)
+        while (found := call("GET", "/duel", soft=(404,))) is None:
+            time.sleep(2)
+        state = play_duel(bot, found["duel_id"])
+        print(f"Final score: you {state['score']['you']} - {state['score']['house']} {state['opponent']}", flush=True)
+        if state["winner"] != "you":
+            print("You are out. Well played!")
+            return
+        if call("GET", "/finale")["bracket"]["champion"]:
+            print("You are the champion!")
+            return
+        print("You go through!", flush=True)
+
+
+def play_duel(bot, duel_id: str) -> dict:
+    seen = 0
+    while True:
+        state = call("GET", f"/duel/{duel_id}")["state"]
+        for k in state["history"][seen:]:
+            show(k)
+        seen = len(state["history"])
+        if state["finished"]:
+            return state
+        if state["need"] in ("shoot", "keep"):
+            # 409: the turn timer resolved this kick first; just read the new state
+            call("POST", f"/duel/{duel_id}/{state['need']}", ask(bot, state["need"], state), soft=(409,))
+        else:
+            time.sleep(0.3)
+
+def sql(query: str):
+    r = call("POST", "/sql", {"sql": query})
+    for row in r["rows"]:
+        print(json.dumps(row, default=str))
+    print(f"-- {len(r['rows'])} rows, {r['bytes_billed'] / 2**20:.1f} MiB billed, "
+          f"{r['budget_left_gib']} GiB budget left", file=sys.stderr)
+
+
+MCP_VERSIONS = ("2026-07-28", "2025-11-25", "2025-06-18")
+SERVER_INFO = {"name": "stadium", "version": "1.0"}
+
+
+def schema(props: dict | None = None, required: tuple = ()) -> dict:
+    s = {"type": "object", "properties": props or {}}
+    if required:
+        s["required"] = list(required)
+    return s
+
+
+TOOLS = {
+    "get_match_logs": (
+        "Full logs of your most recent finished matches: every kick, including where the ball went.",
+        schema({"limit": {"type": "integer", "minimum": 1, "maximum": 50}}),
+        lambda a: call("GET", f"/logs?limit={int(a.get('limit') or 10)}")),
+    "scout_opponent": (
+        "Ask the club's scouts for a tip about the house team.",
+        schema(), lambda a: call("GET", "/scout")),
+    "leaderboard": (
+        "The current round and the leaderboard.",
+        schema(), lambda a: call("GET", "/scoreboard")),
+    "redeem_code": (
+        "Redeem a code word you found for bonus points.",
+        schema({"code": {"type": "string"}}, ("code",)),
+        lambda a: call("POST", "/redeem", {"code": str(a["code"])})),
+    "query_scouting": (
+        "Run a BigQuery SELECT on the club's `scouting` dataset. At most 1 GiB per query and 10 GiB per player; "
+        "a refused query still costs budget and points.",
+        schema({"sql": {"type": "string"}}, ("sql",)),
+        lambda a: call("POST", "/sql", {"sql": str(a["sql"])})),
+}
+
+
+def mcp_reply(msg) -> dict | None:
+    if not isinstance(msg, dict):
+        return {"jsonrpc": "2.0", "id": None, "error": {"code": -32600, "message": "invalid request"}}
+    if "id" not in msg:
+        return None                                    # a notification
+    method, params, rid = msg.get("method"), msg.get("params") or {}, msg["id"]
+    if not isinstance(params, dict):
+        return {"jsonrpc": "2.0", "id": rid, "error": {"code": -32602, "message": "params must be an object"}}
+    if method == "initialize":                         # revisions before 2026-07-28 start with a handshake
+        asked = params.get("protocolVersion")
+        return {"jsonrpc": "2.0", "id": rid, "result": {
+            "protocolVersion": asked if asked in MCP_VERSIONS else MCP_VERSIONS[1],
+            "capabilities": {"tools": {}}, "serverInfo": SERVER_INFO}}
+    if method == "server/discover":
+        result = {"supportedVersions": list(MCP_VERSIONS), "capabilities": {"tools": {}},
+                  "_meta": {"io.modelcontextprotocol/serverInfo": SERVER_INFO}}
+    elif method == "ping":
+        result = {}
+    elif method == "tools/list":
+        result = {"tools": [{"name": n, "description": d, "inputSchema": s} for n, (d, s, _) in TOOLS.items()]}
+    elif method == "tools/call":
+        tool = TOOLS.get(params.get("name"))
+        if tool is None:
+            return {"jsonrpc": "2.0", "id": rid, "error": {"code": -32602, "message": f"unknown tool {params.get('name')!r}"}}
+        try:
+            args = params.get("arguments") or {}
+            if not isinstance(args, dict):
+                raise TypeError("arguments must be an object")
+            text, failed = json.dumps(tool[2](args), default=str), False
+        except (StadiumError, KeyError, ValueError, TypeError) as e:
+            text, failed = str(e), True
+        result = {"content": [{"type": "text", "text": text}], "isError": failed}
+    else:
+        return {"jsonrpc": "2.0", "id": rid, "error": {"code": -32601, "message": f"method not found: {method}"}}
+    return {"jsonrpc": "2.0", "id": rid, "result": {"resultType": "complete", **result}}
+
+
+def mcp():
+    global CLIENT
+    CLIENT = "mcp"
+    for line in sys.stdin:
+        if not line.strip():
+            continue
+        try:
+            out = mcp_reply(json.loads(line))
+        except ValueError:
+            out = {"jsonrpc": "2.0", "id": None, "error": {"code": -32700, "message": "parse error"}}
+        if out is not None:
+            sys.stdout.write(json.dumps(out) + "\n")
+            sys.stdout.flush()
+
+
+def main(argv):
+    if argv == ["whoami"]:
+        me = call("GET", "/me")
+        print(f"{me['name']} ({me['user']})")
+    elif argv in (["practice"], ["official"]):
+        play(argv[0])
+    elif argv == ["duel"]:
+        duel()
+    elif len(argv) == 2 and argv[0] == "sql":
+        sql(argv[1])
+    elif argv == ["mcp"]:
+        mcp()
+    elif argv == ["logs"]:
+        for f in sorted((HERE / "logs").glob("*.json")):
+            print(f)
+    else:
+        print(__doc__)
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    try:
+        main(sys.argv[1:])
+    except StadiumError as e:
+        sys.exit(str(e))
